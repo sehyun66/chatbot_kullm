@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 140050,
+    "name": "t1_20211115_0002_0047_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357100202101/t1_20211115_0002_0047_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357100202101/t1_20211115_0002_0047_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147385,
+      "filename": "t1_0053_0001_02.txt",
+      "title": "t1_0053_0001_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 337,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 337,
+        "word_size": 87,
+        "text": "A. 기쁨이 넘치는 #@소속# #@이름# 상담원 입니다\nB. 안녕하세요 여수 여행을 하려고 하는데 궁금한 게 있어서요\nA. 네 어떤 부분 궁금하셨을까요\nB. 여수에 숙박 업체 종류가 어떤 게 있나요\nA. 호텔과 중저가호텔 콘도미니엄 모텔 펜션 민박이 있고요\nA. 찜질방과 체험관 게스트하우스도 있습니다\nB. 생각보다 많은 숙박 업체들이 있네요\nA. 네 관광지라서 다양한 숙박 업체들이 들어와 있습니다\nB. 참고해서 이번 여행에 어디로 갈지 생각해봐야겠네요\nA. 네 각 숙박 업체만의 장단점을 잘 생각해보시고 이용해 보시길 바랍니다\nB. 알겠습니다 친절히 안내해 주셔서 감사합니다\nA. 그럼 즐거운 여행 준비 되시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 기쁨이 넘치는 #@소속# #@이름# 상담원 입니다",
+            "norm_text": "A. 기쁨이 넘치는 #@소속# #@이름# 상담원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+기쁨/NNG+이/JKS+넘치/VV+는/ETM+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 여수 여행을 하려고 하는데 궁금한 게 있어서요",
+            "norm_text": "B. 안녕하세요 여수 여행을 하려고 하는데 궁금한 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+여수/NNP+여행/NNG+을/JKO+하/VV+려고/EC+하/VV+는데/EC+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 어떤 부분 궁금하셨을까요",
+            "norm_text": "A. 네 어떤 부분 궁금하셨을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+부분/NNG+궁금/XR+하/XSA+셨/EP+EP+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 여수에 숙박 업체 종류가 어떤 게 있나요",
+            "norm_text": "B. 여수에 숙박 업체 종류가 어떤 게 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+여수/NNP+에/JKB+숙박/NNG+업체/NNG+종류/NNG+가/JKS+어떤/MM+게/NNB+JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 호텔과 중저가호텔 콘도미니엄 모텔 펜션 민박이 있고요",
+            "norm_text": "A. 호텔과 중저가호텔 콘도미니엄 모텔 펜션 민박이 있고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+호텔/NNG+과/JC+중저가/NNG+호텔/NNG+콘도미니엄/NNG+모텔/NNG+펜션/NNG+민박/NNG+이/JKS+있/VV+고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A. 찜질방과 체험관 게스트하우스도 있습니다",
+            "norm_text": "A. 찜질방과 체험관 게스트하우스도 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+찜질방/NNG+과/JC+체험/NNG+관/JKB+JX+게스트/NNP+하우스/NNP+도/JX+있/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B. 생각보다 많은 숙박 업체들이 있네요",
+            "norm_text": "B. 생각보다 많은 숙박 업체들이 있네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+생각/NNG+보다/JKB+많/VA+은/ETM+숙박/NNG+업체/NNG+들/XSN+이/JKS+있/VV+네요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 네 관광지라서 다양한 숙박 업체들이 들어와 있습니다",
+            "norm_text": "A. 네 관광지라서 다양한 숙박 업체들이 들어와 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+관광지/NNG+라서/VCP+EC+다양/XR+한/XSA+ETM+숙박/NNG+업체/NNG+들/XSN+이/JKS+들어와/VV+EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 참고해서 이번 여행에 어디로 갈지 생각해봐야겠네요",
+            "norm_text": "B. 참고해서 이번 여행에 어디로 갈지 생각해봐야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+참고/NNG+해서/XSV+EC+이번/NNG+여행/NNG+에/JKB+어디/NP+로/JKB+갈지/VV+EC+생각/NNG+해봐야/XSV+EC+VX+EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 각 숙박 업체만의 장단점을 잘 생각해보시고 이용해 보시길 바랍니다",
+            "norm_text": "A. 네 장단점을 잘 생각해보시고 이용해 보시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+장단점/NNG+을/JKO+잘/MAG+생각/NNG+해/XSV+EC+보/VX+시/EP+고/EC+이용/NNG+해/XSV+EC+보/VX+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B. 알겠습니다 친절히 안내해 주셔서 감사합니다",
+            "norm_text": "B. 알겠습니다 친절히 안내해 주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+친절히/MAG+안내/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A. 그럼 즐거운 여행 준비 되시길 바랍니다",
+            "norm_text": "A. 그럼 즐거운 여행 준비 되시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+그럼/MAJ+즐거운/VA+ETM+여행/NNG+준비/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

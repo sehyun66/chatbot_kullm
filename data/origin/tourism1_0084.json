@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140143,
+    "name": "t1_20211115_0002_0075_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710044632/t1_20211115_0002_0075_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710044632/t1_20211115_0002_0075_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147413,
+      "filename": "t1_0053_0029_02.txt",
+      "title": "t1_0053_0029_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 282,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 282,
+        "word_size": 71,
+        "text": "A. 친절한 안내 도와드리겠습니다 #@소속#입니다\nB. 이번에 강아지 동반 패키지 상품이 있다고 들었는데요\nA. 네 저희 호텔에 유토펫 패키지 상품이 있습니다\nB. 그럼 패키지에 트윈룸도 있을까요\nA. 네 패키지에 오션 펫 트윈룸이 있습니다\nB. 그럼 트윈룸 가격은 어떻게 될까요\nA. 이용하시는 요일이 어떻게 될까요\nB. 금요일 아니면 토요일로 예약하려고요\nA. 금요일은 31만원 토요일은 36만원 입니다\nB. 알겠습니다 날짜 상의 후 다시 연락 드릴게요\nA. 감사합니다 저는 상담원 #@이름#이었습니다 좋은 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 친절한 안내 도와드리겠습니다 #@소속#입니다",
+            "norm_text": "A. 친절한 안내 도와드리겠습니다 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+친절/NNG+한/XSA+ETM+안내/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 이번에 강아지 동반 패키지 상품이 있다고 들었는데요",
+            "norm_text": "B. 이번에 강아지 동반 패키지 상품이 있다고 들었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이번/NNG+에/JKB+강아지/NNG+동반/NNG+패키지/NNG+상품/NNG+이/JKS+있/VV+다고/EC+들/VX+었/EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 저희 호텔에 유토펫 패키지 상품이 있습니다",
+            "norm_text": "A. 네 저희 호텔에 유토펫 패키지 상품이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+호텔/NNG+에/JKB+유토/NNP+펫/NNP+패키지/NNG+상품/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 그럼 패키지에 트윈룸도 있을까요",
+            "norm_text": "B. 그럼 패키지에 트윈룸도 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+패키지/NNG+에/JKB+트윈/NNP+룸/NNG+도/JX+있/VA+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 네 패키지에 오션 펫 트윈룸이 있습니다",
+            "norm_text": "A. 네 패키지에 오션 펫 트윈룸이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+패키지/NNG+에/JKB+오/VV+션/EC+펫/NNP+트윈/NNP+룸/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 그럼 트윈룸 가격은 어떻게 될까요",
+            "norm_text": "B. 그럼 트윈룸 가격은 어떻게 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+트윈/NNP+룸/NNG+가격/NNG+은/JX+어떻게/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 이용하시는 요일이 어떻게 될까요",
+            "norm_text": "A. 이용하시는 요일이 어떻게 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+이용/NNG+하/XSV+시/EP+는/ETM+요일/NNG+이/JKS+어떻게/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 금요일 아니면 토요일로 예약하려고요",
+            "norm_text": "B. 금요일 아니면 토요일로 예약하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+금요일/NNG+아니/VCN+면/EC+토요일/NNG+로/JKB+예약/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 금요일은 31만원 토요일은 36만원 입니다",
+            "norm_text": "A. 금요일은 31만원 토요일은 36만원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+금요일/NNG+은/JX+31/SN+만/NR+원/NNBC+토요일/NNG+은/JX+36/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 알겠습니다 날짜 상의 후 다시 연락 드릴게요",
+            "norm_text": "B. 알겠습니다 날짜 상의 후 다시 연락 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+날짜/NNG+상/XSN+의/JKG+후/NNG+다시/MAG+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 감사합니다 저는 상담원 #@이름#이었습니다 좋은 하루 되세요",
+            "norm_text": "A. 감사합니다 저는 상담원 #@이름#이었습니다 좋은 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+저/NP+는/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 136448,
+    "name": "t1_20211112_0002_0003_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719052865/t1_20211112_0002_0003_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719052865/t1_20211112_0002_0003_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148584,
+      "filename": "t1_0083_0059_02.txt",
+      "title": "t1_0083_0059_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 312,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 312,
+        "word_size": 83,
+        "text": "A. 환영합니다 가평 #@소속#입니다\nB. 네 거기 #@소속# 맞나요\nA. 네 맞습니다 무슨 일이시죠\nB. 저 2인방을 예약하고 싶거든요\nB. 근데 2인이 다 예약이 꽉 차있는 거 같아서요 확인 좀 부탁드릴게요\nA. 2인방을 예약하고 싶으신데 예약이 다 차있다는 거죠\nB. 네 맞아요 빈방이 없는지 좀 봐주세요\nA. 날짜는 언제로 생각하시나요\nB. 10월 30일이요 토요일이에요\nA. 음 그러네요 이날 예약이 전부 꽉 차있네요\nB. 4인방도 없을까요 방을 꼭 잡아야 하는데요\nA. 네 죄송하지만 4인방도 다 예약이 잡혀있네요\nB. 그렇군요 그럼 다른 곳을 찾아봐야겠네요 알겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 환영합니다 가평 #@소속#입니다",
+            "norm_text": "A. 환영합니다 가평 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+환영/NNG+합니다/XSV+EF+가평/NNG+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 네 거기 #@소속# 맞나요",
+            "norm_text": "B. 네 거기 #@소속# 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+거기/NP+#/SY+@/SY+소속/NNG+#/SY+맞/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 맞습니다 무슨 일이시죠",
+            "norm_text": "A. 네 맞습니다 무슨 일이시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+무슨/MM+일/NNG+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 저 2인방을 예약하고 싶거든요",
+            "norm_text": "B. 저 2인방을 예약하고 싶거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+저/MM+2/SN+인방/NNG+을/JKO+예약/NNG+하/XSV+고/EC+싶/VX+거든요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B. 근데 2인이 다 예약이 꽉 차있는 거 같아서요 확인 좀 부탁드릴게요",
+            "norm_text": "B. 근데 2인이 다 예약이 꽉 차있는 거 같아서요 확인 좀 부탁드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+근데/MAJ+2/SN+인/NNG+이/JKS+다/MAG+예약/NNG+이/JKS+꽉차/VV+EC+있/VX+는/ETM+거/NNB+같/VA+아서요/EC+확인/NNG+좀/MAG+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A. 2인방을 예약하고 싶으신데 예약이 다 차있다는 거죠",
+            "norm_text": "A. 2인방을 예약하고 싶으신데 예약이 다 차있다는 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+2/SN+인방/NNG+을/JKO+예약/NNG+하/XSV+고/EC+싶/VX+으신/EP+ETM+데/NNB+예약/NNG+이/JKS+다/MAG+차/VV+EC+있/VX+다는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 네 맞아요 빈방이 없는지 좀 봐주세요",
+            "norm_text": "B. 네 맞아요 빈방이 없는지 좀 봐주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+빈방/NNG+이/JKS+없/VA+는지/EC+좀/MAG+봐/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A. 날짜는 언제로 생각하시나요",
+            "norm_text": "A. 날짜는 언제로 생각하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+날짜/NNG+는/JX+언제/NP+로/JKB+생각/NNG+하/XSV+시/EP+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B. 10월 30일이요 토요일이에요",
+            "norm_text": "B. 10월 30일이요 토요일이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+10/SN+월/NNBC+30/SN+일/NNBC+이요/JX+토요일/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A. 음 그러네요 이날 예약이 전부 꽉 차있네요",
+            "norm_text": "A. 음 그러네요 이날 예약이 전부 꽉 차있네요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+음/IC+그러/VV+네요/EF+이날/NNG+예약/NNG+이/JKS+전부/MAG+꽉차/VV+EC+있/VX+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B. 4인방도 없을까요 방을 꼭 잡아야 하는데요",
+            "norm_text": "B. 4인방도 없을까요 방을 꼭 잡아야 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+4/SN+인방/NNG+도/JX+없/VA+을까요/EC+방/NNG+을/JKO+꼭/MAG+잡/VV+아야/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A. 네 죄송하지만 4인방도 다 예약이 잡혀있네요",
+            "norm_text": "A. 네 죄송하지만 4인방도 다 예약이 잡혀있네요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+네/IC+죄송/XR+하/XSA+지만/EC+4/SN+인방/NNG+도/JX+다/MAG+예약/NNG+이/JKS+잡혀/VV+EC+있/VX+네요/EC"
+          },
+          {
+            "id": 13,
+            "text": "B. 그렇군요 그럼 다른 곳을 찾아봐야겠네요 알겠습니다",
+            "norm_text": "B. 그렇군요 그럼 다른 곳을 찾아봐야겠네요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+그럼/MAJ+다른/MM+곳/NNG+을/JKO+찾/VV+아/EC+봐야/VX+EC+VV+겠/EP+네요/EF+알/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 140132,
+    "name": "t1_20211115_0002_0072_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710042089/t1_20211115_0002_0072_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710042089/t1_20211115_0002_0072_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147410,
+      "filename": "t1_0053_0026_02.txt",
+      "title": "t1_0053_0026_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 334,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 334,
+        "word_size": 88,
+        "text": "A. 행복 가득한 #@소속#의 #@이름#상담원 입니다\nB. 안녕하세요 유토펫 패키지를 보고 전화드렸는데요\nA. 네 저희 유토펫 패키지 예약 안내 도와드릴까요\nB. 그전에 궁금한 게 있어서요\nA. 네 말씀해 주시면 안내 도와드리겠습니다\nB. 오션 펫 더블 룸이랑 오션 펫 트윈 룸의 차이점이 뭔가요\nA. 더블룸은 더블사이즈 침대 하나가 있는 객실이고요\nA. 트윈룸은 퀸사이즈 침대 하나와 더블사이즈 침대 하나가 있습니다\nB. 그럼 객실 이용 객 수도 다르겠네요\nA. 네 더블룸은 최대 인원 2명이고 트윈룸은 최대 인원 4명입니다\nB. 알겠습니다 자세한 안내 감사드려요\nA. 다른 문의 사항 있으시면 언제든 연락 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 행복 가득한 #@소속#의 #@이름#상담원 입니다",
+            "norm_text": "A. 행복 가득한 #@소속#의 #@이름#상담원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+가득/MAG+한/XSA+ETM+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 유토펫 패키지를 보고 전화드렸는데요",
+            "norm_text": "B. 안녕하세요 유토펫 패키지를 보고 전화드렸는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+유토/NNP+펫/NNP+패키지/NNG+를/JKO+보/VV+고/EC+전화/NNG+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 저희 유토펫 패키지 예약 안내 도와드릴까요",
+            "norm_text": "A. 네 저희 유토펫 패키지 예약 안내 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+저희/NP+유토/NNP+펫/NNP+패키지/NNG+예약/NNG+안내/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 그전에 궁금한 게 있어서요",
+            "norm_text": "B. 그전에 궁금한 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그/MM+전/NNG+에/JKB+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 네 말씀해 주시면 안내 도와드리겠습니다",
+            "norm_text": "A. 네 말씀해 주시면 안내 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+말씀/NNG+해/XSV+EC+주/VX+시/EP+면/EC+안내/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 오션 펫 더블 룸이랑 오션 펫 트윈 룸의 차이점이 뭔가요",
+            "norm_text": "B. 오션 펫 더블 룸이랑 오션 펫 트윈 룸의 차이점이 뭔가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+오션/NNP+펫/NNP+더블/NNG+룸/NNG+이랑/JC+오션/NNP+펫/NNP+트윈/NNP+룸/NNG+의/JKG+차이점/NNG+이/JKS+뭔/MM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A. 더블룸은 더블사이즈 침대 하나가 있는 객실이고요",
+            "norm_text": "A. 더블룸은 더블사이즈 침대 하나가 있는 객실이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+더블/NNG+룸/NNG+은/JX+더블/NNG+사이즈/NNG+침대/NNG+하나/NR+가/JKS+있/VA+는/ETM+객실/NNG+이/JKS+고요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "A. 트윈룸은 퀸사이즈 침대 하나와 더블사이즈 침대 하나가 있습니다",
+            "norm_text": "A. 트윈룸은 퀸사이즈 침대 하나와 더블사이즈 침대 하나가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+트윈/NNP+룸/NNG+은/JX+퀸/NNP+사이즈/NNP+침대/NNG+하나/NR+와/JC+더블/NNG+사이즈/NNG+침대/NNG+하나/NR+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 그럼 객실 이용 객 수도 다르겠네요",
+            "norm_text": "B. 그럼 객실 이용 객 수도 다르겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+객실/NNG+이용/NNG+객수/NNG+도/JX+다르/VA+겠/EP+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 더블룸은 최대 인원 2명이고 트윈룸은 최대 인원 4명입니다",
+            "norm_text": "A. 네 더블룸은 최대 인원 2명이고 트윈룸은 최대 인원 4명입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+더블/NNG+룸/NNG+은/JX+최대/NNG+인원/NNG+2/SN+명/NNBC+이/VCP+고/EC+트윈/NNP+룸/NNG+은/JX+최대/NNG+인원/NNG+4/SN+명/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B. 알겠습니다 자세한 안내 감사드려요",
+            "norm_text": "B. 알겠습니다 자세한 안내 감사드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+자세/XR+한/XSA+ETM+안내/NNG+감사/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A. 다른 문의 사항 있으시면 언제든 연락 바랍니다",
+            "norm_text": "A. 다른 문의 사항 있으시면 언제든 연락 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+언제/NP+든/VCP+EC+연락/NNG+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

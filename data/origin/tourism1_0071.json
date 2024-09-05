@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140099,
+    "name": "t1_20211115_0002_0062_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710033365/t1_20211115_0002_0062_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710033365/t1_20211115_0002_0062_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147400,
+      "filename": "t1_0053_0016_02.txt",
+      "title": "t1_0053_0016_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 335,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 335,
+        "word_size": 88,
+        "text": "A. 즐거운 여행의 #@소속# 호텔 안내 센터 입니다\nB. 안녕하세요 호텔에 강아지 전용 객실이 있다고 하는데 맞나요\nA. 네 저희 유탑마리나 객실에 펫 전용 객실이 있습니다\nB. 그럼 펫 전용 객실에 강아지는 몇 마리까지 가능할까요\nA. 객실 이용 기준으로 한마리이고 추가로 한마리 더 이용 가능하세요\nB. 그럼 최대 두마리까지 숙박 가능하다는 거죠\nA. 네 맞습니다 다만 이용 기준 1마리 이외에 한마리는 추가 요금이 있으시고요\nB. 그렇군요 잘 알겠습니다\nA. 그럼 다른 문의 사항 있으신가요\nB. 아니요 충분해요 자세히 알려주셔서 감사합니다\nA. 상담원 #@이름#이었습니다 반려견과 행복한 여행 되시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 즐거운 여행의 #@소속# 호텔 안내 센터 입니다",
+            "norm_text": "A. 즐거운 여행의 #@소속# 호텔 안내 센터 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+여행/NNG+의/JKG+#/SY+@/SY+소속/NNG+#/SY+호텔/NNG+안내/NNG+센터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 호텔에 강아지 전용 객실이 있다고 하는데 맞나요",
+            "norm_text": "B. 안녕하세요 호텔에 강아지 전용 객실이 있다고 하는데 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+호텔/NNG+에/JKB+강아지/NNG+전용/NNG+객실/NNG+이/JKS+있/VV+다고/EC+하/VV+는/ETM+데/NNB+맞/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 저희 유탑마리나 객실에 펫 전용 객실이 있습니다",
+            "norm_text": "A. 네 저희 유탑마리나 객실에 펫 전용 객실이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저/MM+희유/NNG+탑/NNG+마리/NNP+나/JC+객실/NNG+에/JKB+펫/NNP+전용/NNG+객실/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 그럼 펫 전용 객실에 강아지는 몇 마리까지 가능할까요",
+            "norm_text": "B. 그럼 펫 전용 객실에 강아지는 몇 마리까지 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+펫/NNP+전용/NNG+객실/NNG+에/JKB+강아지/NNG+는/JX+몇/MM+마리/NNBC+까지/JX+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 객실 이용 기준으로 한마리이고 추가로 한마리 더 이용 가능하세요",
+            "norm_text": "A. 객실 이용 기준으로 한마리이고 추가로 한마리 더 이용 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+객실/NNG+이용/NNG+기준/NNG+으로/JKB+한/MM+마리/NNBC+이/VCP+고/EC+추가/NNG+로/JKB+한/MM+마리/NNBC+더/MAG+이용/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 그럼 최대 두마리까지 숙박 가능하다는 거죠",
+            "norm_text": "B. 그럼 최대 두마리까지 숙박 가능하다는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+최대/NNG+두/MM+마리/NNBC+까지/JX+숙박/NNG+가능/NNG+하/XSA+다는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 네 맞습니다 다만 이용 기준 1마리 이외에 한마리는 추가 요금이 있으시고요",
+            "norm_text": "A. 네 맞습니다 한 마리는 추가 요금이 있으시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+다만/MAJ+이용/NNG+기준/NNG+1/SN+마리/NNBC+이외/NNG+에/JKB+한/MM+마리/NNBC+는/JX+추가/NNG+요금/NNG+이/JKS+있/VA+으시/EP+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 그렇군요 잘 알겠습니다",
+            "norm_text": "B. 그렇군요 잘 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+잘/MAG+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A. 그럼 다른 문의 사항 있으신가요",
+            "norm_text": "A. 그럼 다른 문의 사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그럼/MAJ+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "B. 아니요 충분해요 자세히 알려주셔서 감사합니다",
+            "norm_text": "B. 아니요 충분해요 자세히 알려주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아니요/IC+충분/XR+해요/XSA+EF+자세히/MAG+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 상담원 #@이름#이었습니다 반려견과 행복한 여행 되시길 바랍니다",
+            "norm_text": "A. 상담원 #@이름#이었습니다 반려견과 행복한 여행 되시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+반려/NNG+견과/NNG+행복/NNG+한/XSA+ETM+여행/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

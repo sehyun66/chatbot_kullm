@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 139997,
+    "name": "t1_20211115_0002_0031_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710005930/t1_20211115_0002_0031_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710005930/t1_20211115_0002_0031_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147369,
+      "filename": "t1_0052_0115_02.txt",
+      "title": "t1_0052_0115_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 263,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 263,
+        "word_size": 53,
+        "text": "A.안녕하세요 #@소속# 친절한 상담사 #@이름#입니다\nB.안녕하세요 여주 푸른하늘은하수 펜션에 조금 큰 방은 없나요\nA.어느 정도 크기를 원하시나요\nB.10인실 이상이 필요한데요\nA.10인실과 15인실도 있습니다\nB.각각 숙박 요금이 어떻게 되나요\nA.10인실은 기준 요금이 12만원이고 5인부터 만원씩 추가요금이 있습니다\nB.그러면 10명이 가면 17만원이겠네요\nA.네 그렇습니다 고객님\nB.알겠습니다 친절한 안내 감사합니다\nA.고객님 즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 친절한 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 친절한 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+친절/NNG+한상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 여주 푸른하늘은하수 펜션에 조금 큰 방은 없나요",
+            "norm_text": "B.안녕하세요 여주 푸른하늘은하수 펜션에 조금 큰 방은 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+여/EC+주/VX+푸른/VA+ETM+하늘/NNG+은/JX+하수/NNG+펜션/NNG+에/JKB+조금/MAG+큰/VA+ETM+방/NNG+은/JX+없/VA+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.어느 정도 크기를 원하시나요",
+            "norm_text": "A.어느 정도 크기를 원하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어느/MM+정도/NNG+크기/NNG+를/JKO+원하/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.10인실 이상이 필요한데요",
+            "norm_text": "B.10인실 이상이 필요한데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+10/SN+인/NNG+실/NNG+이상/NNG+이/JKS+필요/NNG+한데요/XSA+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.10인실과 15인실도 있습니다",
+            "norm_text": "A.10인실과 15인실도 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+10/SN+인/NNG+실과/NNG+15/SN+인/NNG+실/NNG+도/JX+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.각각 숙박 요금이 어떻게 되나요",
+            "norm_text": "B.각각 숙박 요금이 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+각각/MAG+숙박/NNG+요금/NNG+이/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.10인실은 기준 요금이 12만원이고 5인부터 만원씩 추가요금이 있습니다",
+            "norm_text": "A.10인실은 기준 요금이 12만원이고 5인부터 만원씩 추가요금이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+10/SN+인/NNG+실은/MAG+기준/NNG+요금/NNG+이/JKS+12/SN+만/NR+원/NNBC+이/VCP+고/EC+5/SN+인/NNG+부터/JX+만/NR+원/NNBC+씩/XSN+추가/NNG+요금/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그러면 10명이 가면 17만원이겠네요",
+            "norm_text": "B.그러면 10명이 가면 17만원이겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러/VV+면/EC+10/SN+명/NNBC+이/JKS+가/VV+면/EC+17/SN+만/NR+원/NNBC+이/VCP+겠/EP+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 그렇습니다 고객님",
+            "norm_text": "A.네 그렇습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 친절한 안내 감사합니다",
+            "norm_text": "B.알겠습니다 친절한 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.고객님 즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+            "norm_text": "A.고객님 즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+즐거운/VA+ETM+하루/NNG+보내/VV+EC+십/NR+시/NNBC+오상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

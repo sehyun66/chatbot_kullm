@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 140190,
+    "name": "t1_20211115_0002_0089_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710056623/t1_20211115_0002_0089_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710056623/t1_20211115_0002_0089_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147427,
+      "filename": "t1_0053_0043_02.txt",
+      "title": "t1_0053_0043_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 379,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 379,
+        "word_size": 95,
+        "text": "A. 만나서 반갑습니다 #@소속# #@이름#입니다\nB. 제가 여행 당일에 생일인데요#@소속#에서 생일자 혜택이 있다고 들어서요\nA. 혹시 예약을 이미 하신 분이신가요 아니면 예약 예정이실까요\nB. 다음 주 토요일 날로 이미 예약한 상태에요\nA. 네 그러시면 생일 이벤트 신청 도와드릴텐데요\nB. 아 따로 신청을 해야 하는 건가요\nA. 예약자분 성함과 예약 날짜만 확인하면 됩니다\nA. 그럼 예약자분 성함과 이용 날짜 말씀해 주시겠어요\nB. 제 이름은 #@이름#이고요 날짜가 10월16일이요\nA. 네 확인 감사합니다 이벤트 참여 완료 되셨고요\nA. 체크인 시 신분증으로 생년월일 확인 받으시면 됩니다\nB. 아 알겠습니다 안내 감사드려요\nA. 감사합니다 저희 #@소속#에서 뜻깊은 생일 보내시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 만나서 반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A. 만나서 반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+만나/VV+서/EC+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 제가 여행 당일에 생일인데요#@소속#에서 생일자 혜택이 있다고 들어서요",
+            "norm_text": "B. 안녕하세요 #@소속#에서 생일자 혜택이 있다고 들어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+여행/NNG+당일/NNG+에/JKB+생일/NNG+인데요/VCP+EC+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+생/XPN+일자/NNG+혜택/NNG+이/JKS+있/VV+다고/EC+들/VV+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 혹시 예약을 이미 하신 분이신가요 아니면 예약 예정이실까요",
+            "norm_text": "A. 혹시 예약을 이미 하신 분이신가요 아니면 예약 예정이실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+예약/NNG+을/JKO+이미/MAG+하/VV+신/EP+ETM+분/NNB+이/VCP+신가요/EP+EC+아니/VCN+면/EC+예약/NNG+예정/NNG+이/VCP+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 다음 주 토요일 날로 이미 예약한 상태에요",
+            "norm_text": "B. 다음 주 토요일 날로 이미 예약한 상태에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+다음/NNG+주/NNG+토요일/NNG+날/NNG+로/JKB+이미/MAG+예약/NNG+한/XSA+ETM+상태/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A. 네 그러시면 생일 이벤트 신청 도와드릴텐데요",
+            "norm_text": "A. 네 그러시면 생일 이벤트 신청 도와드릴텐데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": "A/SL+네/IC+그러/VV+시/EP+면/EC+생일/NNG+이벤트/NNG+신청/NNG+도와/VV+EC+드릴/VX+ETM+텐데요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 아 따로 신청을 해야 하는 건가요",
+            "norm_text": "B. 아 따로 신청을 해야 하는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+따로/MAG+신청/NNG+을/JKO+해야/VV+EC+하/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 예약자분 성함과 예약 날짜만 확인하면 됩니다",
+            "norm_text": "A. 예약자분 성함과 예약 날짜만 확인하면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예약자/NNG+분성/NNG+함/XSV+ETN+과/JC+예약/NNG+날짜/NNG+만/JX+확인/NNG+하/XSV+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 그럼 예약자분 성함과 이용 날짜 말씀해 주시겠어요",
+            "norm_text": "A. 그럼 예약자분 성함과 이용 날짜 말씀해 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+예약자/NNG+분성/NNG+함/XSV+ETN+과/JC+이용/NNG+날짜/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 제 이름은 #@이름#이고요 날짜가 10월16일이요",
+            "norm_text": "B. 제 이름은 #@이름#이고요 날짜가 10월16일이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+날짜/NNG+가/JKS+10/SN+월/NNBC+16/SN+일/NNBC+이요/JX"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 확인 감사합니다 이벤트 참여 완료 되셨고요",
+            "norm_text": "A. 네 확인 감사합니다 이벤트 참여 완료 되셨고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EF+이벤트/NNG+참여/NNG+완료/NNG+되/XSV+셨/EP+EP+고요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 체크인 시 신분증으로 생년월일 확인 받으시면 됩니다",
+            "norm_text": "A. 체크인 시 신분증으로 생년월일 확인 받으시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": "A/SL+./SY+체크/NNG+인시/NNG+신분증/NNG+으로/JKB+생년월일/NNG+확인/NNG+받/VV+으시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B. 아 알겠습니다 안내 감사드려요",
+            "norm_text": "B. 아 알겠습니다 안내 감사드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아/IC+알/VV+겠/EP+습니다/EF+안내/NNG+감사/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A. 감사합니다 저희 #@소속#에서 뜻깊은 생일 보내시길 바랍니다",
+            "norm_text": "A. 감사합니다 저희 #@소속#에서 뜻깊은 생일 보내시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+저희/NP+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+뜻깊/VA+은/ETM+생일/NNG+보내/VV+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

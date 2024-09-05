@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 140186,
+    "name": "t1_20211115_0002_0088_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710055760/t1_20211115_0002_0088_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710055760/t1_20211115_0002_0088_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147426,
+      "filename": "t1_0053_0042_02.txt",
+      "title": "t1_0053_0042_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 402,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 402,
+        "word_size": 102,
+        "text": "A. 즐거운 여행의 휴식을 제공하는 #@소속# 안내 센터 입니다\nB. 제가 여자친구랑 여수로 여행을 가는데요\nA. 네 어떤 부분 안내 도와드릴까요\nB. 혹시 조금 더 저렴한 가격으로 예약할 수 있는 방법이 있을까요\nA. 저렴하게 이용하시는 방법 중에 레이트버드 특가가 있는데요\nB. 레이트버드 특가는 어떤거에요\nA. 체크인 시간을 늦게 하시는 경우 20프로 정도 할인해 드리고 있습니다\nB. 원래 체크인 시간과 레이트버드인 경우 얼마나 차이 나나요\nA. 정상 체크인 시간은 15시이고요 레이트버드의 경우 18시 입니다\nB. 좋네요 어차피 여행하고 저녁 먹고 들어갈 예정이었거든요\nA. 네 그러시면 예약 안내 도와드릴까요\nB. 우선 여자친구랑 상의를 해보고 다시 연락드릴게요\nA. 알겠습니다 저는 상담원 #@이름#이었습니다 좋은 하루 되십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 즐거운 여행의 휴식을 제공하는 #@소속# 안내 센터 입니다",
+            "norm_text": "A. 즐거운 여행의 휴식을 제공하는 #@소속# 안내 센터 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+여행/NNG+의/JKG+휴식/NNG+을/JKO+제공/NNG+하/XSV+는/ETM+#/SY+@/SY+소속/NNG+#/SY+안내/NNG+센터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 제가 여자친구랑 여수로 여행을 가는데요",
+            "norm_text": "B. 제가 여자친구랑 여수로 여행을 가는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+여자/NNG+친구/NNG+랑/JKB+여수로/NNG+여행/NNG+을/JKO+가/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 어떤 부분 안내 도와드릴까요",
+            "norm_text": "A. 네 어떤 부분 안내 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+부분/NNG+안내/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 혹시 조금 더 저렴한 가격으로 예약할 수 있는 방법이 있을까요",
+            "norm_text": "B. 혹시 조금 더 저렴한 가격으로 예약할 수 있는 방법이 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+조금/MAG+더/MAG+저렴/XR+한/XSA+ETM+가격/NNG+으로/JKB+예약/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+방법/NNG+이/JKS+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 저렴하게 이용하시는 방법 중에 레이트버드 특가가 있는데요",
+            "norm_text": "A. 저렴하게 이용하시는 방법 중에 레이트버드 특가가 있는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저렴/XR+하/XSA+게/EC+이용/NNG+하/XSV+시/EP+는/ETM+방법/NNG+중/NNB+에/JKB+레이트/NNP+버드/NNP+특가/NNG+가/JKS+있/VA+는데요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 레이트버드 특가는 어떤거에요",
+            "norm_text": "B. 레이트버드 특가는 어떤거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+레이트/NNP+버드/NNP+특가/NNG+는/JX+어떤/MM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A. 체크인 시간을 늦게 하시는 경우 20프로 정도 할인해 드리고 있습니다",
+            "norm_text": "A. 체크인 시간을 늦게 하시는 경우 20프로 정도 할인해 드리고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+체크인/NNG+시간/NNG+을/JKO+늦/VA+게/EC+하/VX+시/EP+는/ETM+경우/NNG+20/SN+프로/NNG+정도/NNG+할인/NNG+해/XSV+EC+드리/VX+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B. 원래 체크인 시간과 레이트버드인 경우 얼마나 차이 나나요",
+            "norm_text": "B. 원래 체크인 시간과 레이트버드인 경우 얼마나 차이 나나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+원래/MAG+체크인/NNG+시간/NNG+과/JC+레이트/NNP+버드/NNP+인/VCP+ETM+경우/NNG+얼마나/MAG+차이/NNG+나/JC+나/NP+요/JX"
+          },
+          {
+            "id": 9,
+            "text": "A. 정상 체크인 시간은 15시이고요 레이트버드의 경우 18시 입니다",
+            "norm_text": "A. 정상 체크인 시간은 15시이고요 레이트버드의 경우 18시 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+정상/NNG+체크인/NNG+시간/NNG+은/JX+15/SN+시/NNBC+이/VCP+고요/EC+레이트/NNP+버드/NNP+의/JKG+경우/NNG+18/SN+시/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 좋네요 어차피 여행하고 저녁 먹고 들어갈 예정이었거든요",
+            "norm_text": "B. 좋네요 어차피 여행하고 저녁 먹고 들어갈 예정이었거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+좋/VA+네요/EF+어차피/MAG+여행/NNG+하/XSV+고/EC+저녁/NNG+먹/VV+고/EC+들어갈/VV+ETM+예정/NNG+이/VCP+었/EP+거든요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A. 네 그러시면 예약 안내 도와드릴까요",
+            "norm_text": "A. 네 그러시면 예약 안내 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그러/VV+시/EP+면/EC+예약/NNG+안내/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B. 우선 여자친구랑 상의를 해보고 다시 연락드릴게요",
+            "norm_text": "B. 우선 여자친구랑 상의를 해보고 다시 연락드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+우선/MAG+여자/NNG+친구/NNG+랑/JKB+상의/NNG+를/JKO+해/VV+EC+보/VX+고/EC+다시/MAG+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A. 알겠습니다 저는 상담원 #@이름#이었습니다 좋은 하루 되십시오",
+            "norm_text": "A. 알겠습니다 저는 상담원 #@이름#이었습니다 좋은 하루 되십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+저/NP+는/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+좋/VA+은/ETM+하루/NNG+되/XSV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

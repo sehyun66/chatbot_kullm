@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 140130,
+    "name": "t1_20211115_0002_0071_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710041280/t1_20211115_0002_0071_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710041280/t1_20211115_0002_0071_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147409,
+      "filename": "t1_0053_0025_02.txt",
+      "title": "t1_0053_0025_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 366,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 366,
+        "word_size": 99,
+        "text": "A. 기쁨이 넘치는 #@소속#의 상담원 #@이름#입니다\nB. 지금 호텔에서 하고 있는 펫 전용 패키지 상품 있잖아요\nA. 네 유토펫 패키지 안내 도와드릴까요\nB. 네 패키지 구성이 어떻게 되는지 알 수 있을까요\nA. 구성은 객실과 조식 뷔페 2인 치킨과 맥주 세트 입니다\nB. 그럼 치킨과 맥주 세트는 당일 저녁에 이용해야 하나요\nA. 지정된 이용 시간은 없으나 저녁에 치킨과 맥주를 드시고요\nA. 오전에 조식을 이용하시는 게 좋을 것 같습니다\nB. 그렇군요 조식에 강아지도 동반 가능한가요\nA. 네 유모차나 케이지 이용 시 조식 레스토랑에 동반 이용 가능하세요\nB. 좋네요 그럼 남편이랑 상의해 보고 예약해야겠어요\nA. 감사합니다 오늘 하루도 행복한 마무리 하시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 기쁨이 넘치는 #@소속#의 상담원 #@이름#입니다",
+            "norm_text": "A. 기쁨이 넘치는 #@소속#의 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+기쁨/NNG+이/JKS+넘치/VV+는/ETM+#/SY+@/SY+소속/NNG+#/SY+의/JKG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 지금 호텔에서 하고 있는 펫 전용 패키지 상품 있잖아요",
+            "norm_text": "B. 지금 호텔에서 하고 있는 펫 전용 패키지 상품 있잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+호텔/NNG+에서/JKB+하/VV+고/EC+있/VX+는/ETM+펫/NNP+전용/NNG+패키지/NNG+상품/NNG+있/VV+잖아요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 유토펫 패키지 안내 도와드릴까요",
+            "norm_text": "A. 네 유토펫 패키지 안내 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+유토/NNP+펫/NNP+패키지/NNG+안내/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 네 패키지 구성이 어떻게 되는지 알 수 있을까요",
+            "norm_text": "B. 네 패키지 구성이 어떻게 되는지 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+패키지/NNG+구성/NNG+이/JKS+어떻게/MAG+되/VV+는지/EC+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 구성은 객실과 조식 뷔페 2인 치킨과 맥주 세트 입니다",
+            "norm_text": "A. 구성은 객실과 조식 뷔페 2인 치킨과 맥주 세트 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+구성/NNG+은/JX+객실/NNG+과/JC+조식/NNG+뷔페/NNG+2/SN+인/NNG+치킨/NNG+과/JC+맥주/NNG+세트/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 그럼 치킨과 맥주 세트는 당일 저녁에 이용해야 하나요",
+            "norm_text": "B. 그럼 치킨과 맥주 세트는 당일 저녁에 이용해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+치킨/NNG+과/JC+맥주/NNG+세트/NNG+는/JX+당일/NNG+저녁/NNG+에/JKB+이용/NNG+해야/XSV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 지정된 이용 시간은 없으나 저녁에 치킨과 맥주를 드시고요",
+            "norm_text": "A. 지정된 이용 시간은 없으나 저녁에 치킨과 맥주를 드시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+지정/NNG+된/XSV+ETM+이용/NNG+시간/NNG+은/JX+없/VA+으나/EC+저녁/NNG+에/JKB+치킨/NNG+과/JC+맥주/NNG+를/JKO+드/VV+시/EP+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 오전에 조식을 이용하시는 게 좋을 것 같습니다",
+            "norm_text": "A. 오전에 조식을 이용하시는 게 좋을 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+오전/NNG+에/JKB+조식/NNG+을/JKO+이용/NNG+하/XSV+시/EP+는/ETM+게/NNB+JKS+좋/VA+을/ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 그렇군요 조식에 강아지도 동반 가능한가요",
+            "norm_text": "B. 그렇군요 조식에 강아지도 동반 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+조식/NNG+에/JKB+강아지/NNG+도/JX+동반/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 유모차나 케이지 이용 시 조식 레스토랑에 동반 이용 가능하세요",
+            "norm_text": "A. 네 유모차나 케이지 이용 시 조식 레스토랑에 동반 이용 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+유모차/NNG+나케/NNP+이지/+이/+용시/NNG+조식/NNG+레스토랑/NNG+에/JKB+동반/NNG+이용/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B. 좋네요 그럼 남편이랑 상의해 보고 예약해야겠어요",
+            "norm_text": "B. 좋네요 그럼 남편이랑 상의해 보고 예약해야겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+좋/VA+네요/EF+그럼/MAJ+남편/NNG+이랑/JKB+상의/NNG+해/XSV+EC+보/VX+고/EC+예약/NNG+해야/XSV+EC+VX+겠/EP+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A. 감사합니다 오늘 하루도 행복한 마무리 하시길 바랍니다",
+            "norm_text": "A. 감사합니다 오늘 하루도 행복한 마무리 하시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+오늘/MAG+하루/NNG+도/JX+행복/NNG+한/XSA+ETM+마무리/NNG+하/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

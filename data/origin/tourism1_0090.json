@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140162,
+    "name": "t1_20211115_0002_0081_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710049641/t1_20211115_0002_0081_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710049641/t1_20211115_0002_0081_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147419,
+      "filename": "t1_0053_0035_02.txt",
+      "title": "t1_0053_0035_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 319,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 319,
+        "word_size": 86,
+        "text": "A. 전화 주신 곳은 #@소속# 안내 센터 입니다\nB. 네 이번에 와인 제공 이벤트를 보고 전화드렸는데요\nA. 저희 이벤트 안내 도와드리면 될까요\nB. 이용 객실이 스위트 룸이면 다 되는 건가요\nA. 네 저희 호텔의 스위트 룸 이용 시 와인과 치즈 제공이 됩니다\nB. 혹시 스위트 룸 타입이 몇 개인지 알 수 있을까요\nA. 패밀리스위트 로얄스위트 다이아몬드스위트 에메랄드스위트 입니다\nB. 4가지 객실 타입 중에 하나로 예약을 해야 한다는 거죠\nA. 맞습니다 전화 또는 홈페이지에서 예약하시면 됩니다\nB. 네 그럼 날짜 상의해서 다시 연락드릴게요\nA. 감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 전화 주신 곳은 #@소속# 안내 센터 입니다",
+            "norm_text": "A. 전화 주신 곳은 #@소속# 안내 센터 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+신/EP+ETM+곳/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+안내/NNG+센터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 네 이번에 와인 제공 이벤트를 보고 전화드렸는데요",
+            "norm_text": "B. 네 이번에 와인 제공 이벤트를 보고 전화드렸는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+이번/NNG+에/JKB+와인/NNG+제공/NNG+이벤트/NNG+를/JKO+보/VV+고/EC+전화/NNG+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 저희 이벤트 안내 도와드리면 될까요",
+            "norm_text": "A. 저희 이벤트 안내 도와드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+저희/NP+이벤트/NNG+안내/NNG+도와/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 이용 객실이 스위트 룸이면 다 되는 건가요",
+            "norm_text": "B. 이용 객실이 스위트 룸이면 다 되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+이용/NNG+객실/NNG+이/JKS+스위트룸/NNG+이/VCP+면/EC+다/MAG+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 네 저희 호텔의 스위트 룸 이용 시 와인과 치즈 제공이 됩니다",
+            "norm_text": "A. 네 저희 호텔의 스위트 룸 이용 시 와인과 치즈 제공이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+호텔/NNG+의/JKG+스위트룸/NNG+이/JKS+용시/NNG+와/JC+인과/NNG+치즈/NNG+제공/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 혹시 스위트 룸 타입이 몇 개인지 알 수 있을까요",
+            "norm_text": "B. 혹시 스위트 룸 타입이 몇 개인지 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+스위트룸/NNG+타입/NNG+이/JKS+몇/MM+개/NNBC+인지/VCP+EC+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 패밀리스위트 로얄스위트 다이아몬드스위트 에메랄드스위트 입니다",
+            "norm_text": "A. 패밀리스위트 로얄스위트 다이아몬드스위트 에메랄드스위트 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+패밀리/NNP+스위트/NNP+로얄/NNP+스위트/NNP+다이아몬드/NNP+스위트/NNP+에메랄드/NNG+스위트/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 4가지 객실 타입 중에 하나로 예약을 해야 한다는 거죠",
+            "norm_text": "B. 4가지 객실 타입 중에 하나로 예약을 해야 한다는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+4/SN+가지/NNBC+객실/NNG+타입/NNG+중/NNB+에/JKB+하나/NR+로/JKB+예약/NNG+을/JKO+해야/VV+EC+한다는/VX+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 맞습니다 전화 또는 홈페이지에서 예약하시면 됩니다",
+            "norm_text": "A. 맞습니다 전화 또는 홈페이지에서 예약하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+맞/VV+습니다/EF+전화/NNG+또는/MAJ+홈페이지/NNG+에서/JKB+예약/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 네 그럼 날짜 상의해서 다시 연락드릴게요",
+            "norm_text": "B. 네 그럼 날짜 상의해서 다시 연락드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+날짜/NNG+상/XSN+의/JKG+해서/VV+EC+다시/MAG+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A. 감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

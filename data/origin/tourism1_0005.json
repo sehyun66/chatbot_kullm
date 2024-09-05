@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 136450,
+    "name": "t1_20211112_0002_0005_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719054066/t1_20211112_0002_0005_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719054066/t1_20211112_0002_0005_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148586,
+      "filename": "t1_0074_0002_02.txt",
+      "title": "t1_0074_0002_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 293,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 293,
+        "word_size": 69,
+        "text": "A. 즐거운 하루시작 #@소속# 상담원 #@이름#입니다\nB. 대둔산 도립공원 수락캠핑장 장기 예약 가능한가요\nA. 1사이트당 최대 2박3일까지만 예약 가능하세요\nB. 아 그러면 혹시 인원 제한이 있을까요\nA. 1사이트당 최대 6인까지 가능하세요\nB. 두 가족 해서 6인인데 그럼 괜찮을까요\nA. 네 괜찮으십니다만 차량은 1대만 출입가능하세요\nB. 아 그러면 차를 큰걸로 대여해서 하나에 타고 가야겠네요\nA. 네네 그러시면 1사이트로도 충분하실거예요\nB. 알겠습니다 그렇게 해야겠네요\nA. 즐거운 여행 되세요 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 즐거운 하루시작 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A. 즐거운 하루시작 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+시작/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 대둔산 도립공원 수락캠핑장 장기 예약 가능한가요",
+            "norm_text": "B. 대둔산 도립공원 수락캠핑장 장기 예약 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+대둔산/NNP+도립/NNG+공원/NNG+수락/NNG+캠핑/NNG+장/NNG+장기/NNG+예약/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A. 1사이트당 최대 2박3일까지만 예약 가능하세요",
+            "norm_text": "A. 1사이트당 최대 2박3일까지만 예약 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+1/SN+사이트/NNG+당/XSN+최대/NNG+2/SN+박/NNBC+3/SN+일/NNBC+까지/JX+만/JX+예약/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 아 그러면 혹시 인원 제한이 있을까요",
+            "norm_text": "B. 아 그러면 혹시 인원 제한이 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그러면/MAJ+혹시/MAG+인원/NNG+제한/NNG+이/JKS+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 1사이트당 최대 6인까지 가능하세요",
+            "norm_text": "A. 1사이트당 최대 6인까지 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+1/SN+사이트/NNG+당/XSN+최대/NNG+6/SN+인/NNG+까지/JX+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 두 가족 해서 6인인데 그럼 괜찮을까요",
+            "norm_text": "B. 두 가족 해서 6인인데 그럼 괜찮을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+두/MM+가족/NNG+해서/XSV+EC+6/SN+인/NNG+인데/VCP+EC+그럼/MAJ+괜찮/VA+을까요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 네 괜찮으십니다만 차량은 1대만 출입가능하세요",
+            "norm_text": "A. 네 괜찮으십니다만 차량은 1대만 출입가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+괜찮/VA+으십니다/EP+EP+EF+만/JX+차량/NNG+은/JX+1/SN+대만/NNP+출입/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B. 아 그러면 차를 큰걸로 대여해서 하나에 타고 가야겠네요",
+            "norm_text": "B. 아 그러면 차를 큰걸로 대여해서 하나에 타고 가야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아/IC+그러면/MAJ+차/NNG+를/JKO+큰/VA+ETM+걸로/NNB+JKB+대여/NNG+해서/XSV+EC+하나/NR+에/JKB+타/VV+고/EC+가/VX+야/EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 네네 그러시면 1사이트로도 충분하실거예요",
+            "norm_text": "A. 네네 그러시면 1사이트로도 충분하실거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네네/IC+그러/VV+시/EP+면/EC+1/SN+사이트/NNG+로/JKB+도/JX+충분/XR+하/XSA+실/EP+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B. 알겠습니다 그렇게 해야겠네요",
+            "norm_text": "B. 알겠습니다 그렇게 해야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그렇게/MAG+해야/VV+EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 즐거운 여행 되세요 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 즐거운 여행 되세요 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+여행/NNG+되/XSV+세요/EP+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 140105,
+    "name": "t1_20211115_0002_0064_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710035231/t1_20211115_0002_0064_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710035231/t1_20211115_0002_0064_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147402,
+      "filename": "t1_0053_0018_02.txt",
+      "title": "t1_0053_0018_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 367,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 367,
+        "word_size": 96,
+        "text": "A. 화창한 아침에 인사드립니다 여수 #@소속# 안내 센터 입니다\nB. 이번에 펫 동반 객실을 예약 했는데요\nA. 네 어떤 문의 사항으로 전화 주셨을까요\nB. 펫 동반이면 호텔 내에 강아지 전용 물건들이 비치되어 있나요\nA. 네 저희 호텔 객실에 펫 전용 어메니티가 제공이 됩니다\nB. 어메니티라면 어떤 것들이 제공 될까요\nA. 애견 침대와 계단 밥그릇 물그릇 배변판 배변패드 제공되고요\nA. 애견 샴푸와 드라이기 수건 탈취제 공기청정기 털제거 돌돌이도 있습니다\nB. 생각보다 많은 게 준비되어 있군요\nA. 네 반려견과 이용하시기에 불편함 없도록 준비되어 있습니다\nB. 잘 알겠습니다 상세한 설명 감사드려요\nA. 상담원 #@이름#이었습니다 반려견과 행복한 시간 되시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 화창한 아침에 인사드립니다 여수 #@소속# 안내 센터 입니다",
+            "norm_text": "A. 화창한 아침에 인사드립니다 여수 #@소속# 안내 센터 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+화창/XR+한/XSA+ETM+아침/NNG+에/JKB+인사/NNG+드립니다/VV+EC+여수/NNP+#/SY+@/SY+소속/NNG+#/SY+안내/NNG+센터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 이번에 펫 동반 객실을 예약 했는데요",
+            "norm_text": "B. 이번에 펫 동반 객실을 예약 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이번/NNG+에/JKB+펫/NNP+동반/NNG+객실/NNG+을/JKO+예약/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 어떤 문의 사항으로 전화 주셨을까요",
+            "norm_text": "A. 네 어떤 문의 사항으로 전화 주셨을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문/NNG+의/JKG+사항/NNG+으로/JKB+전화/NNG+주/VV+셨/EP+EP+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 펫 동반이면 호텔 내에 강아지 전용 물건들이 비치되어 있나요",
+            "norm_text": "B. 펫 동반이면 호텔 내에 강아지 전용 물건들이 비치되어 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+펫/NNP+동반/NNG+이/VCP+면/EC+호텔/NNG+내/NNB+에/JKB+강아지/NNG+전용/NNG+물건/NNG+들/XSN+이/JKS+비치/NNG+되/XSV+어/EC+있/VX+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 네 저희 호텔 객실에 펫 전용 어메니티가 제공이 됩니다",
+            "norm_text": "A. 네 저희 호텔 객실에 펫 전용 어메니티가 제공이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+호텔/NNG+객실/NNG+에/JKB+펫/NNP+전용/NNG+어메니티/NNP+가/JKS+제공/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 어메니티라면 어떤 것들이 제공 될까요",
+            "norm_text": "B. 어메니티라면 어떤 것들이 제공 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+어메니티/NNP+라면/VCP+EC+어떤/MM+것/NNB+들/XSN+이/JKS+제공/NNG+될까요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 애견 침대와 계단 밥그릇 물그릇 배변판 배변패드 제공되고요",
+            "norm_text": "A. 애견 침대와 계단 밥그릇 물그릇 배변판 배변패드 제공되고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+애견/NNG+침대/NNG+와/JC+계단/NNG+밥그릇/NNG+물그릇/NNG+배변/NNG+판/VV+ETM+배변/NNG+패드/NNG+제공/NNG+되/XSV+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 애견 샴푸와 드라이기 수건 탈취제 공기청정기 털제거 돌돌이도 있습니다",
+            "norm_text": "A. 애견 샴푸와 드라이기 수건 탈취제 공기청정기가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+애견/NNG+샴푸/NNG+와/JC+드라이/NNP+기수건/NNG+탈취제/NNG+공기/NNG+청정기/NNP+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 생각보다 많은 게 준비되어 있군요",
+            "norm_text": "B. 생각보다 많은 게 준비되어 있군요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+생각/NNG+보다/JKB+많/VA+은/ETM+게/NNB+JKS+준비/NNG+되/XSV+어/EC+있/VX+군요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 반려견과 이용하시기에 불편함 없도록 준비되어 있습니다",
+            "norm_text": "A. 네 반려견과 이용하시기에 불편함 없도록 준비되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+반려/NNG+견과/NNG+이용/NNG+하/XSV+시/EP+기/ETN+에/JKB+불편/NNG+함/XSV+ETN+없/VA+도록/EC+준비/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B. 잘 알겠습니다 상세한 설명 감사드려요",
+            "norm_text": "B. 잘 알겠습니다 상세한 설명 감사드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+잘/MAG+알/VV+겠/EP+습니다/EF+상세/XR+한/XSA+ETM+설명/NNG+감사/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A. 상담원 #@이름#이었습니다 반려견과 행복한 시간 되시길 바랍니다",
+            "norm_text": "A. 상담원 #@이름#이었습니다 반려견과 행복한 시간 되시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+반려/NNG+견과/NNG+행복/NNG+한/XSA+ETM+시간/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

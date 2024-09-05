@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 139907,
+    "name": "t1_20211115_0002_0002_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357090060103/t1_20211115_0002_0002_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357090060103/t1_20211115_0002_0002_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147257,
+      "filename": "t1_0052_0003_02.txt",
+      "title": "t1_0052_0003_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 301,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 301,
+        "word_size": 61,
+        "text": "A.안녕하세요 #@소속#친절한 상담사 #@이름#입니다\nB.네 제가 화랑마을에서 숙박을 하려고 하는데 비용이 얼마인가요\nA.고객님 화랑마을 숙박은 육부촌이라고 크기에 따라 조금 다릅니다\nB.저는 4인실을 원하시는데요\nA.육부촌에는 4인실은 없고 6인실과 8인실이 있습니다\nB.그러면 6인실로 해주세요\nA.6인실 비용은 비수기에 15만원과 16만원이 있습니다\nB.15만원 짜리로 하겠습니다\nA.고객님 육부촌은 예약 한 달전 1일에 인터넷 예약만 가능합니다\nB.아 그렇군요 알겠습니다 친절한 안내 감사드립니다\nA.즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#친절한 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#친절한 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+친절/NNG+한상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 제가 화랑마을에서 숙박을 하려고 하는데 비용이 얼마인가요",
+            "norm_text": "B.네 제가 화랑마을에서 숙박을 하려고 하는데 비용이 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+화랑/NNG+마을/NNG+에서/JKB+숙박/NNG+을/JKO+하/VV+려고/EC+하/VV+는데/EC+비용/NNG+이/JKS+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 화랑마을 숙박은 육부촌이라고 크기에 따라 조금 다릅니다",
+            "norm_text": "A.고객님 화랑마을 숙박은 육부촌이라고 크기에 따라 조금 다릅니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+화랑/NNG+마을/NNG+숙박/NNG+은/JX+육/NR+부촌/NNG+이/VCP+라고/EC+크기/NNG+에/JKB+따라/VV+EC+조금/MAG+다릅니다/VA+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.저는 4인실을 원하시는데요",
+            "norm_text": "B.저는 4인실을 원하시는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/NP+는/JX+4/SN+인/NNG+실/NNG+을/JKO+원하/VV+시/EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.육부촌에는 4인실은 없고 6인실과 8인실이 있습니다",
+            "norm_text": "A.육부촌에는 4인실은 없고 6인실과 8인실이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+육/NR+부촌/NNG+에/JKB+는/JX+4/SN+인/NNG+실은/MAG+없/VA+고/EC+6/SN+인/NNG+실과/NNG+8/SN+인/NNG+실/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그러면 6인실로 해주세요",
+            "norm_text": "B.그러면 6인실로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그러/VV+면/EC+6/SN+인/NNG+실로/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.6인실 비용은 비수기에 15만원과 16만원이 있습니다",
+            "norm_text": "A.6인실 비용은 비수기에 15만원과 16만원이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+6/SN+인/NNG+실비/NNG+용/XSN+은/JX+비수기/NNG+에/JKB+15/SN+만/NR+원/NNBC+과/JC+16/SN+만/NR+원/NNBC+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.15만원 짜리로 하겠습니다",
+            "norm_text": "B.15만원 짜리로 하겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+15/SN+만/NR+원/NNBC+짜리/XSN+로/JKB+하/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.고객님 육부촌은 예약 한 달전 1일에 인터넷 예약만 가능합니다",
+            "norm_text": "A.고객님 육부촌은 예약 한 달전 1일에 인터넷 예약만 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+육/NR+부촌/NNG+은/JX+예약/NNG+한달전/NNP+1/SN+일/NNBC+에/JKB+인터넷/NNG+예약/NNG+만/JX+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.아 그렇군요 알겠습니다 친절한 안내 감사드립니다",
+            "norm_text": "B.아 그렇군요 알겠습니다 친절한 안내 감사드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아/IC+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+            "norm_text": "A.즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+보내/VV+EC+십/NR+시/NNBC+오상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

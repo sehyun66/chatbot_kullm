@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 136449,
+    "name": "t1_20211112_0002_0004_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719053414/t1_20211112_0002_0004_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719053414/t1_20211112_0002_0004_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148585,
+      "filename": "t1_0074_0001_02.txt",
+      "title": "t1_0074_0001_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 255,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 58,
+        "text": "A. 안녕하십니까 #@소속# 상담원 #@이름#입니다\nB. 대둔산 도립공원 수락캠핑장 문의드립니다\nA. 네 무엇을 도와드릴까요\nB. 캠핑장 대여 가격 알고싶어서요\nA. 1사이트당 평일 2만원 주말 공휴일은 25000원 입니다\nB. 한사람이 몇개까지 예약 가능할까요\nA. 1인 2사이트 이상 예약 불가입니다\nB. 캠핑카 같은것도 사용가능할까요\nA. 자립형 텐트 야영시설이라 불가능하십니다\nB. 알겠습니다 안내 감사합니다\nA. 좋은 하루 되세요 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A. 안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 대둔산 도립공원 수락캠핑장 문의드립니다",
+            "norm_text": "B. 대둔산 도립공원 수락캠핑장 문의드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+대둔산/NNP+도립/NNG+공원/NNG+수락/NNG+캠핑/NNG+장문/NNG+의/JKG+드립니다/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 무엇을 도와드릴까요",
+            "norm_text": "A. 네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 캠핑장 대여 가격 알고싶어서요",
+            "norm_text": "B. 캠핑장 대여 가격 알고싶어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+캠/NNP+핑장/NNP+대여/NNG+가격/NNG+알/VV+고/EC+싶/VX+어서요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 1사이트당 평일 2만원 주말 공휴일은 25000원 입니다",
+            "norm_text": "A. 1사이트당 평일 2만원 주말 공휴일은 25000원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+1/SN+사이트/NNG+당평/NNG+일/NR+2/SN+만/NR+원/NNBC+주말/NNG+공휴일/NNG+은/JX+25000/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 한사람이 몇개까지 예약 가능할까요",
+            "norm_text": "B. 한사람이 몇개까지 예약 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+한/MM+사람/NNG+이/JKS+몇/MM+개/NNBC+까지/JX+예약/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 1인 2사이트 이상 예약 불가입니다",
+            "norm_text": "A. 1인 2사이트 이상 예약 불가입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+./SY+1/SN+인/NNG+2/SN+사이트/NNG+이상/NNG+예약/NNG+불가/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 캠핑카 같은것도 사용가능할까요",
+            "norm_text": "B. 캠핑카 같은것도 사용가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+캠핑카/NNG+같/VA+은/ETM+것/NNB+도/JX+사용/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 자립형 텐트 야영시설이라 불가능하십니다",
+            "norm_text": "A. 자립형 텐트 야영시설이라 불가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+자립/NNG+형/XSN+텐트/NNG+야영/NNG+시설/NNG+이/VCP+라/EC+불/XPN+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 알겠습니다 안내 감사합니다",
+            "norm_text": "B. 알겠습니다 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 좋은 하루 되세요 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 좋은 하루 되세요 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

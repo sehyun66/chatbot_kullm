@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140072,
+    "name": "t1_20211115_0002_0053_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710025913/t1_20211115_0002_0053_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710025913/t1_20211115_0002_0053_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147392,
+      "filename": "t1_0053_0008_02.txt",
+      "title": "t1_0053_0008_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 312,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 312,
+        "word_size": 81,
+        "text": "A. 안녕하세요 #@소속# 에서 전화받은 #@이름#입니다\nB. 안녕하세요 혹시 호텔에 강아지 동반 입실이 가능한가요\nA. 저희 객실 중에 펫 동반이 가능한 곳이 별도로 있습니다\nB. 그래요 그럼 사람은 몇 명까지 가능한가요\nA. 기준은 두 분이시고 최대 4분 가능하세요\nB. 강아지는 몇 마리까지 가능해요\nA. 기준은 1마리이고 추가로 1마리 가능해서 총 2마리 입니다\nB. 그럼 강아지는 입실 가능한 크기가 정해져 있나요\nA. 12키로 이하의 소형견만 가능하세요\nB. 네 알겠습니다 상세히 알려 주셔서 감사합니다\nA. 앞으로도 저희 #@소속# 이용에 많은 관심 부탁 드립니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 안녕하세요 #@소속# 에서 전화받은 #@이름#입니다",
+            "norm_text": "A. 안녕하세요 #@소속# 에서 전화받은 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+전화/NNG+받/VV+은/ETM+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 혹시 호텔에 강아지 동반 입실이 가능한가요",
+            "norm_text": "B. 안녕하세요 혹시 호텔에 강아지 동반 입실이 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+혹시/MAG+호텔/NNG+에/JKB+강아지/NNG+동반/NNG+입실/NNG+이/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A. 저희 객실 중에 펫 동반이 가능한 곳이 별도로 있습니다",
+            "norm_text": "A. 저희 객실 중에 펫 동반이 가능한 곳이 별도로 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+객실/NNG+중/NNB+에/JKB+펫/NNP+동반/NNG+이/JKS+가능/NNG+한/XSA+ETM+곳/NNG+이/JKS+별도/NNG+로/JKB+있/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 그래요 그럼 사람은 몇 명까지 가능한가요",
+            "norm_text": "B. 그래요 그럼 사람은 몇 명까지 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+사람/NNG+은/JX+몇/MM+명/NNBC+까지/JX+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A. 기준은 두 분이시고 최대 4분 가능하세요",
+            "norm_text": "A. 기준은 두 분이시고 최대 4분 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기준/NNG+은/JX+두/MM+분/NNBC+이/VCP+시/EP+고/EC+최대/NNG+4/SN+분/NNBC+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 강아지는 몇 마리까지 가능해요",
+            "norm_text": "B. 강아지는 몇 마리까지 가능해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+강아지/NNG+는/JX+몇/MM+마리/NNBC+까지/JX+가능/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 기준은 1마리이고 추가로 1마리 가능해서 총 2마리 입니다",
+            "norm_text": "A. 기준은 1마리이고 추가로 1마리 가능해서 총 2마리 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기준/NNG+은/JX+1/SN+마리/NNBC+이/VCP+고/EC+추가/NNG+로/JKB+1/SN+마리/NNBC+가능/NNG+해서/XSV+EC+총/MM+2/SN+마리/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 그럼 강아지는 입실 가능한 크기가 정해져 있나요",
+            "norm_text": "B. 그럼 강아지는 입실 가능한 크기가 정해져 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+강아지/NNG+는/JX+입실/NNG+가능/NNG+한/XSA+ETM+크기/NNG+가/JKS+정해져/VV+EC+VX+EC+있/VX+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 12키로 이하의 소형견만 가능하세요",
+            "norm_text": "A. 12키로 이하의 소형견만 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+12/SN+키로/XSV+ETN+JKB+이하/NNG+의/JKG+소형/NNG+견만/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B. 네 알겠습니다 상세히 알려 주셔서 감사합니다",
+            "norm_text": "B. 네 알겠습니다 상세히 알려 주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+상세히/MAG+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 앞으로도 저희 #@소속# 이용에 많은 관심 부탁 드립니다",
+            "norm_text": "A. 앞으로도 저희 #@소속# 이용에 많은 관심 부탁 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+앞/NNG+으로/JKB+도/JX+저희/NP+#/SY+@/SY+소속/NNG+#/SY+이용/NNG+에/JKB+많/VA+은/ETM+관심/NNG+부탁/NNG+드립니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 136466,
+    "name": "t1_20211112_0002_0009_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719056782/t1_20211112_0002_0009_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719056782/t1_20211112_0002_0009_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148590,
+      "filename": "t1_0074_0006_02.txt",
+      "title": "t1_0074_0006_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 279,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 279,
+        "word_size": 65,
+        "text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다\nB. 대둔산 수락캠핑장 반려동물 동행 되나요\nA. 죄송하지만 반려동물 출입은 허용되지 않습니다\nB. 아 되게 작은 개인데도 안될까요\nA. 야외 숙박시설이라 어렵습니다 양해 부탁드려요\nB. 그러면 같이 가서 차에만 두는건요\nA. 아예 주차장부터 입장이 불가하시니 참고 부탁드립니다\nB. 텐트쪽으로 안가는데도 아예 안된다구요\nA. 네 그렇습니다 양해부탁드립니다\nB. 어쩔 수 없죠 참고할게요 수고하세요\nA. 행복한 하루 되시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 대둔산 수락캠핑장 반려동물 동행 되나요",
+            "norm_text": "B. 대둔산 수락캠핑장 반려동물 동행 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+대둔산/NNP+수락/NNG+캠핑/NNG+장/NNG+반려/NNG+동물/NNG+동행/NNG+되/XSV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 죄송하지만 반려동물 출입은 허용되지 않습니다",
+            "norm_text": "A. 죄송하지만 반려동물 출입은 허용되지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+반려/NNG+동물/NNG+출입/NNG+은/JX+허용/NNG+되/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 아 되게 작은 개인데도 안될까요",
+            "norm_text": "B. 아 되게 작은 개인데도 안될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+되게/MAG+작은개/NNG+인데/VCP+EC+도/JX+안/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 야외 숙박시설이라 어렵습니다 양해 부탁드려요",
+            "norm_text": "A. 야외 숙박시설이라 어렵습니다 양해 부탁드려요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+야외/NNG+숙박/NNG+시설/NNG+이/VCP+라/EC+어렵/VA+습니다/EF+양해/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 그러면 같이 가서 차에만 두는건요",
+            "norm_text": "B. 그러면 같이 가서 차에만 두는건요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+같이/MAG+가/VV+서/EC+차/NNG+에/JKB+만/JX+두/VV+는/ETM+건요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A. 아예 주차장부터 입장이 불가하시니 참고 부탁드립니다",
+            "norm_text": "A. 아예 주차장부터 입장이 불가하시니 참고 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+아예/MAG+주차장/NNG+부터/JX+입장/NNG+이/JKS+불가/NNG+하/XSV+시/EP+니/EC+참/VV+고/EC+부탁드립니다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 텐트쪽으로 안가는데도 아예 안된다구요",
+            "norm_text": "B. 텐트쪽으로 안가는데도 아예 안된다구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+텐트/NNG+쪽/NNB+으로/JKB+안/MAG+가/VV+는/ETM+데/NNB+도/JX+아예/MAG+안/MAG+된다구요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 네 그렇습니다 양해부탁드립니다",
+            "norm_text": "A. 네 그렇습니다 양해부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+양해/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 어쩔 수 없죠 참고할게요 수고하세요",
+            "norm_text": "B. 어쩔 수 없죠 참고할게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+어쩔/VV+ETM+수/NNB+없/VA+죠/EF+참고/NNG+할게요/XSV+EC+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A. 행복한 하루 되시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 행복한 하루 되시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

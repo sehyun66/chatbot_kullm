@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 140103,
+    "name": "t1_20211115_0002_0063_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710034392/t1_20211115_0002_0063_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710034392/t1_20211115_0002_0063_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147401,
+      "filename": "t1_0053_0017_02.txt",
+      "title": "t1_0053_0017_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 382,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 382,
+        "word_size": 102,
+        "text": "A. 즐거운 아침을 여는 #@소속# 안내 센터 입니다\nB. 강아지랑 같이 입실 가능한 객실이 있는 걸로 아는데요\nA. 네 펫 동반 객실 안내 도와드릴까요\nB. 네 그런데 저희가 성인이 4명인데 이용 가능할까요\nA. 저희 펫 동반 객실은 오션 펫 더블룸과 오션 펫 트윈 룸이 있으신데요\nB. 트윈룸도 있었나요 더블룸만 봤거든요\nA. 네 더블룸은 성인 2분 가능하시지만요\nA. 트윈룸은 최대 4명까지 가능하세요\nB. 그럼 침대 사이즈는 어떻게 될까요\nA. 트윈룸 침대 사이즈는 퀸사이즈 하나와 더블사이즈 하나 입니다\nB. 4명이서 자는 건 충분하겠네요\nA. 네 그렇습니다 그럼 다른 문의 사항 있으실까요\nB. 아니요 괜찮아요 그럼 수고하세요\nA. 상담원 #@이름#이었습니다 행복한 여행 준비 되시길 바라겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 즐거운 아침을 여는 #@소속# 안내 센터 입니다",
+            "norm_text": "A. 즐거운 아침을 여는 #@소속# 안내 센터 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+아침/NNG+을/JKO+여/VV+는/ETM+#/SY+@/SY+소속/NNG+#/SY+안내/NNG+센터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 강아지랑 같이 입실 가능한 객실이 있는 걸로 아는데요",
+            "norm_text": "B. 강아지랑 같이 입실 가능한 객실이 있는 걸로 아는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+강아지/NNG+랑/JKB+같이/MAG+입실/NNG+가능/NNG+한/XSA+ETM+객실/NNG+이/JKS+있/VA+는/ETM+걸로/NNB+JKB+아/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 펫 동반 객실 안내 도와드릴까요",
+            "norm_text": "A. 네 펫 동반 객실 안내 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+펫/NNP+동반/NNG+객실/NNG+안내/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 네 그런데 저희가 성인이 4명인데 이용 가능할까요",
+            "norm_text": "B. 네 그런데 저희가 성인이 4명인데 이용 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그런데/MAJ+저희/NP+가/JKS+성인/NNG+이/JKS+4/SN+명/NNBC+인데/VCP+EC+이용/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 저희 펫 동반 객실은 오션 펫 더블룸과 오션 펫 트윈 룸이 있으신데요",
+            "norm_text": "A. 저희 펫 동반 객실은 펫 더블룸과 펫 트윈 룸이 있으신데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+펫/NNP+동반/NNG+객실/NNG+은/JX+펫/NNP+더블/NNG+룸/NNG+과/JC+펫/NNP+트윈/NNP+룸/NNG+이/JKS+있/VA+으신/EP+ETM+데/NNB+요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 트윈룸도 있었나요 더블룸만 봤거든요",
+            "norm_text": "B. 트윈룸도 있었나요 더블룸만 봤거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+트윈/NNP+룸/NNG+도/JX+있/VA+었/EP+나요/EF+더블/NNG+룸/NNG+만/JX+봤/VV+EP+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A. 네 더블룸은 성인 2분 가능하시지만요",
+            "norm_text": "A. 네 더블룸은 성인 2분 가능하시지만요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+더블/NNG+룸/NNG+은/JX+성인/NNG+2/SN+분/NNBC+가능/NNG+하/XSV+시/EP+지만/EC+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A. 트윈룸은 최대 4명까지 가능하세요",
+            "norm_text": "A. 트윈룸은 최대 4명까지 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+트윈/NNP+룸/NNG+은/JX+최대/NNG+4/SN+명/NNBC+까지/JX+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 그럼 침대 사이즈는 어떻게 될까요",
+            "norm_text": "B. 그럼 침대 사이즈는 어떻게 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+침대/NNG+사이즈/NNG+는/JX+어떻게/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 트윈룸 침대 사이즈는 퀸사이즈 하나와 더블사이즈 하나 입니다",
+            "norm_text": "A. 트윈룸 침대 사이즈는 퀸사이즈 하나와 더블사이즈 하나 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+트윈/NNP+룸/NNG+침대/NNG+사이즈/NNG+는/JX+퀸/NNP+사이즈/NNP+하나/NR+와/JC+더블/NNG+사이즈/NNG+하나/NR+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B. 4명이서 자는 건 충분하겠네요",
+            "norm_text": "B. 4명이서 자는 건 충분하겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+4/SN+명/NNBC+이/XSN+서/JKS+자/VV+는/ETM+건/NNB+JX+충분/XR+하/XSA+겠/EP+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A. 네 그렇습니다 그럼 다른 문의 사항 있으실까요",
+            "norm_text": "A. 네 그렇습니다 그럼 다른 문의 사항 있으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+그럼/MAJ+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 13,
+            "text": "B. 아니요 괜찮아요 그럼 수고하세요",
+            "norm_text": "B. 아니요 괜찮아요 그럼 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아니요/IC+괜찮/VA+아요/EF+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A. 상담원 #@이름#이었습니다 행복한 여행 준비 되시길 바라겠습니다",
+            "norm_text": "A. 상담원 #@이름#이었습니다 행복한 여행 준비 되시길 바라겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": "A/SL+./SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+행복/NNG+한/XSA+ETM+여행/NNG+준비/NNG+되/XSV+시/EP+길/ETN+JKO+바라/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

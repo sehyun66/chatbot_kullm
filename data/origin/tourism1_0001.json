@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 136446,
+    "name": "t1_20211112_0002_0001_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719051572/t1_20211112_0002_0001_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719051572/t1_20211112_0002_0001_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148582,
+      "filename": "t1_0083_0057_02.txt",
+      "title": "t1_0083_0057_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 229,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 229,
+        "word_size": 64,
+        "text": "A. 환영합니다 #@소속# 펜션입니다\nB. 사장님 안녕하세요 오늘 예약한 사람입니다\nA. 네 안녕하세요 손님\nB. 다름이 아니라요 지금 거의 다 온 것 같은데 근처에 펜션이 너무 많네요\nA. 네 주위에 펜션들이 좀 많긴 해요\nB. 이게 좀 헷갈리네요\nA. 네비에 주소를 한번 찍어보시겠어요\nB. 아 그럼 주소를 한번 불러주세요\nA. #@주소# 찍어보세요\nB. 거의 다 왔네요 얼추 보이는 것 같아요\nA. 보이시나요 조심히 오세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 환영합니다 #@소속# 펜션입니다",
+            "norm_text": "A. 환영합니다 #@소속# 펜션입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+환영/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+펜션/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 사장님 안녕하세요 오늘 예약한 사람입니다",
+            "norm_text": "B. 사장님 안녕하세요 오늘 예약한 사람입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+사장/NNG+님/XSN+안녕/NNG+하/XSV+세요/EP+EF+오늘/MAG+예약/NNG+한/XSA+ETM+사람/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 안녕하세요 손님",
+            "norm_text": "A. 네 안녕하세요 손님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+손님/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B. 다름이 아니라요 지금 거의 다 온 것 같은데 근처에 펜션이 너무 많네요",
+            "norm_text": "B. 다름이 아니라요 지금 거의 다 온 것 같은데 근처에 펜션이 너무 많네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+다름/VA+ETN+이/JKC+아니/VCN+라요/EC+지금/MAG+거의/MAG+다/MAG+온/VV+ETM+것/NNB+같/VA+은데/EC+근처/NNG+에/JKB+펜션/NNG+이/JKS+너무/MAG+많/VA+네요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 네 주위에 펜션들이 좀 많긴 해요",
+            "norm_text": "A. 네 주위에 펜션들이 좀 많긴 해요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+주위/NNG+에/JKB+펜션/NNG+들/XSN+이/JKS+좀/MAG+많/VA+긴/ETN+JX+해요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 이게 좀 헷갈리네요",
+            "norm_text": "B. 이게 좀 헷갈리네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+이게/NP+JKS+좀/MAG+헷갈리/VV+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 네비에 주소를 한번 찍어보시겠어요",
+            "norm_text": "A. 네비에 주소를 한번 찍어보시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+네비/NNG+에/JKB+주소/NNG+를/JKO+한번/MAG+찍/VV+어/EC+보/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B. 아 그럼 주소를 한번 불러주세요",
+            "norm_text": "B. 아 그럼 주소를 한번 불러주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+아/IC+그럼/MAJ+주소/NNG+를/JKO+한번/MAG+불러/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A. #@주소# 찍어보세요",
+            "norm_text": "A. #@주소# 찍어보세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+찍/VV+어/EC+보/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B. 거의 다 왔네요 얼추 보이는 것 같아요",
+            "norm_text": "B. 거의 다 왔네요 얼추 보이는 것 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+거의/MAG+다/MAG+왔/VV+EP+네요/EF+얼추/MAG+보이/VV+는/ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 보이시나요 조심히 오세요",
+            "norm_text": "A. 보이시나요 조심히 오세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+보이/VV+시/EP+나요/EF+조심히/MAG+오/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

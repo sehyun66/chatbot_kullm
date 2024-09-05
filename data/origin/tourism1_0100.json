@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 140195,
+    "name": "t1_20211115_0002_0091_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710059719/t1_20211115_0002_0091_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710059719/t1_20211115_0002_0091_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147429,
+      "filename": "t1_0053_0045_02.txt",
+      "title": "t1_0053_0045_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 332,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 332,
+        "word_size": 88,
+        "text": "A. 반갑습니다 #@소속# 안내 센터 입니다\nB. 안녕하세요#@소속#생일 이벤트를 보고 전화드렸는데요\nA. 네 어떤 부분 안내 도와드릴까요\nB. 저희가 여행을 11월에 갈 예정인데요\nB. 11월 생일자가 있으면 혜택을 받을 수 있는 거 맞죠\nA. 네 투숙 기간 내 해당 월 생일자가 있으면 가능합니다\nB. 그럼 어떤 혜택이 있는 건가요\nA. 예약 하신 객실에서 한 단계 업그레이드 되세요\nB. 룸 업그레이드가 생일자 혜택이에요\nA. 그리고 레이트 체크아웃이 가능합니다\nB. 아 룸 업그레이드랑 레이트체크아웃 혜택이군요\nA. 네 맞습니다 그럼 또 다른 문의 사항 있으신가요\nB. 아니요 우선 알겠습니다 그럼 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 #@소속# 안내 센터 입니다",
+            "norm_text": "A. 반갑습니다 #@소속# 안내 센터 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+안내/NNG+센터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요#@소속#생일 이벤트를 보고 전화드렸는데요",
+            "norm_text": "B. 안녕하세요#@소속#생일 이벤트를 보고 전화드렸는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+생일/NNG+이벤트/NNG+를/JKO+보/VV+고/EC+전화/NNG+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 어떤 부분 안내 도와드릴까요",
+            "norm_text": "A. 네 어떤 부분 안내 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+부분/NNG+안내/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 저희가 여행을 11월에 갈 예정인데요",
+            "norm_text": "B. 저희가 여행을 11월에 갈 예정인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+가/JKS+여행/NNG+을/JKO+11/SN+월/NNBC+에/JKB+갈/VV+ETM+예정/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B. 11월 생일자가 있으면 혜택을 받을 수 있는 거 맞죠",
+            "norm_text": "B. 11월 생일자가 있으면 혜택을 받을 수 있는 거 맞죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+11/SN+월/NNBC+생/XSN+일자/NNG+가/JKS+있/VA+으면/EC+혜택/NNG+을/JKO+받/VV+을/ETM+수/NNB+있/VV+는/ETM+거/NNB+맞/VV+죠/EC"
+          },
+          {
+            "id": 6,
+            "text": "A. 네 투숙 기간 내 해당 월 생일자가 있으면 가능합니다",
+            "norm_text": "A. 네 투숙 기간 내 해당 월 생일자가 있으면 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+투숙/NNG+기간/NNG+내해/NNG+당월/NNG+생/XSN+일자/NNG+가/JKS+있/VA+으면/EC+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 그럼 어떤 혜택이 있는 건가요",
+            "norm_text": "B. 그럼 어떤 혜택이 있는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+어떤/MM+혜택/NNG+이/JKS+있/VA+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 예약 하신 객실에서 한 단계 업그레이드 되세요",
+            "norm_text": "A. 예약 하신 객실에서 한 단계 업그레이드 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예약/NNG+하/XSV+신/EP+ETM+객실/NNG+에서/JKB+한/MM+단계/NNG+업그레이드/NNG+되/XSV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 룸 업그레이드가 생일자 혜택이에요",
+            "norm_text": "B. 룸 업그레이드가 생일자 혜택이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+룸/NNG+업그레이드/NNG+가/JKS+생일/NNG+자/XSN+혜택/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A. 그리고 레이트 체크아웃이 가능합니다",
+            "norm_text": "A. 그리고 레이트 체크아웃이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그리고/MAJ+레이트/NNG+체크아웃/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B. 아 룸 업그레이드랑 레이트체크아웃 혜택이군요",
+            "norm_text": "B. 아 룸 업그레이드랑 레이트체크아웃 혜택이군요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+룸/NNG+업그레이드/NNG+랑/JKB+레이트/NNG+체크아웃/NNG+혜택/NNG+이/VCP+군요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A. 네 맞습니다 그럼 또 다른 문의 사항 있으신가요",
+            "norm_text": "A. 네 맞습니다 그럼 또 다른 문의 사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+그럼/MAJ+또/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 13,
+            "text": "B. 아니요 우선 알겠습니다 그럼 수고하세요",
+            "norm_text": "B. 아니요 우선 알겠습니다 그럼 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아니요/IC+우선/MAG+알/VV+겠/EP+습니다/EF+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

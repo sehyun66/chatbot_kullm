@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140146,
+    "name": "t1_20211115_0002_0076_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710045436/t1_20211115_0002_0076_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710045436/t1_20211115_0002_0076_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147414,
+      "filename": "t1_0053_0030_02.txt",
+      "title": "t1_0053_0030_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 297,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 297,
+        "word_size": 75,
+        "text": "A. 무엇이든 도와드리겠습니다 #@소속# #@이름#입니다\nB. 안녕하세요 저희가 다음 주에 예약해서 이용하려고 하는데요\nA. 네 어떤 부분 안내 도와드릴까요\nB. 생일자 이벤트 같은 게 있다고 들었는데요\nA. 저희 이벤트 투숙 한 당월에 생일이신 분들을 위한 작은 이벤트가 있습니다\nB. 그럼 이벤트 내용이 뭔가요\nA. 레드와인 2잔을 무료로 제공하고 있습니다\nB. 룸서비스로 가져다 주는 건가요\nA. 아니요 12층 프리모스카이 바에서 제공하고 있습니다\nB. 마침 와이프 생일이라 가는 건데 잘됐네요\nA. 그럼 가족분과 행복한 시간 보내시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 무엇이든 도와드리겠습니다 #@소속# #@이름#입니다",
+            "norm_text": "A. 무엇이든 도와드리겠습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+무엇/NP+이/VCP+든/EC+도와/VV+EC+드리/VX+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 저희가 다음 주에 예약해서 이용하려고 하는데요",
+            "norm_text": "B. 안녕하세요 저희가 다음 주에 예약해서 이용하려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+저희/NP+가/JKS+다음/NNG+주/NNG+에/JKB+예약/NNG+해서/XSV+EC+이용/NNG+하/XSV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 어떤 부분 안내 도와드릴까요",
+            "norm_text": "A. 네 어떤 부분 안내 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+부분/NNG+안내/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 생일자 이벤트 같은 게 있다고 들었는데요",
+            "norm_text": "B. 생일자 이벤트 같은 게 있다고 들었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+생/XPN+일자/NNG+이벤트/NNG+같/VA+은/ETM+게/NNB+JKS+있/VA+다고/EC+들/VX+었/EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 저희 이벤트 투숙 한 당월에 생일이신 분들을 위한 작은 이벤트가 있습니다",
+            "norm_text": "A. 투숙 한 당월에 생일이신 분들을 위한 작은 이벤트가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+이벤트/NNG+투숙/NNG+한/XSA+ETM+당월/NNG+에/JKB+생일/NNG+이/JKS+신분/NNG+들/XSN+을/JKO+위한/VV+ETM+작/VA+은/ETM+이벤트/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 그럼 이벤트 내용이 뭔가요",
+            "norm_text": "B. 그럼 이벤트 내용이 뭔가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+이벤트/NNG+내용/NNG+이/JKS+뭔/MM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A. 레드와인 2잔을 무료로 제공하고 있습니다",
+            "norm_text": "A. 레드와인 2잔을 무료로 제공하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+레드와인/NNP+2/SN+잔/NNBC+을/JKO+무료/NNG+로/JKB+제공/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B. 룸서비스로 가져다 주는 건가요",
+            "norm_text": "B. 룸서비스로 가져다 주는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+룸서비스/NNG+로/JKB+가져다주/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 아니요 12층 프리모스카이 바에서 제공하고 있습니다",
+            "norm_text": "A. 아니요 12층 프리모스카이 바에서 제공하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아니/VCN+요/EC+12/SN+층/NNG+프리모/NNP+스카이바/NNP+에서/JKB+제공/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B. 마침 와이프 생일이라 가는 건데 잘됐네요",
+            "norm_text": "B. 마침 와이프 생일이라 가는 건데 잘됐네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "B/SL+마침/MAG+와이프/NNG+생일/NNG+이/VCP+라/EC+가/VX+는/ETM+건데/NNB+VCP+EC+잘/MAG+됐/VV+EP+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 그럼 가족분과 행복한 시간 보내시길 바랍니다",
+            "norm_text": "A. 그럼 가족분과 행복한 시간 보내시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+그럼/MAJ+가족/NNG+분과/NNG+행복/NNG+한/XSA+ETM+시간/NNG+보내/VV+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

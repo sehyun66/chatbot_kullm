@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 140075,
+    "name": "t1_20211115_0002_0054_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710025246/t1_20211115_0002_0054_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710025246/t1_20211115_0002_0054_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147391,
+      "filename": "t1_0053_0007_02.txt",
+      "title": "t1_0053_0007_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 378,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 378,
+        "word_size": 98,
+        "text": "A. 최고의 서비스를 제공하는 #@소속# #@이름# 입니다\nB. 안녕하세요 호텔 예약을 하는데 문의 사항이 있어서요\nA. 네 어떤 문의 사항으로 전화주셨을까요\nB. 제가 체크 아웃을 11시라고 확인을 했었는데요\nA. 네 맞습니다 저희 체크 아웃 시간 오전 11시 입니다\nB. 그런데 다른 예약 사이트에서는 12시로 나와서요\nA. 12시는 주중에 이용하셨을 경우 12시까지이고요\nA. 주말은 11시가 맞습니다\nB. 그렇군요 주중이라는 단어가 빠졌네요\nA. 아마 해당 사이트에서 누락이 되었나 봅니다\nB. 그럼 주말에 11시 체크 아웃 맞는 거죠\nA. 네 그렇습니다 그럼 다른 문의 사항 있으실까요\nB. 아니요 다른 문의 사항은 없어요\nA. 이용에 불편을 드려 죄송합니다 남은 하루도 행복하시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 최고의 서비스를 제공하는 #@소속# #@이름# 입니다",
+            "norm_text": "A. 최고의 서비스를 제공하는 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+최고/NNG+의/JKG+서비스/NNG+를/JKO+제공/NNG+하/XSV+는/ETM+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 호텔 예약을 하는데 문의 사항이 있어서요",
+            "norm_text": "B. 안녕하세요 호텔 예약을 하는데 문의 사항이 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+호텔/NNG+예약/NNG+을/JKO+하/VV+는데/EC+문/NNG+의/JKG+사항/NNG+이/JKS+있/VV+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 어떤 문의 사항으로 전화주셨을까요",
+            "norm_text": "A. 네 어떤 문의 사항으로 전화주셨을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문/NNG+의/JKG+사항/NNG+으로/JKB+전화/NNG+주/VV+셨/EP+EP+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 제가 체크 아웃을 11시라고 확인을 했었는데요",
+            "norm_text": "B. 제가 체크 아웃을 11시라고 확인을 했었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+체크아웃/NNG+을/JKO+11/SN+시/NNBC+라고/VCP+EC+확인/NNG+을/JKO+했었/VV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 네 맞습니다 저희 체크 아웃 시간 오전 11시 입니다",
+            "norm_text": "A. 네 맞습니다 저희 체크 아웃 시간 오전 11시 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+저희/NP+체크아웃/NNG+시간/NNG+오전/NNG+11/SN+시/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 그런데 다른 예약 사이트에서는 12시로 나와서요",
+            "norm_text": "B. 그런데 다른 예약 사이트에서는 12시로 나와서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그런데/MAJ+다른/MM+예약/NNG+사이트/NNG+에서/JKB+는/JX+12/SN+시/NNBC+로/JKB+나와/VV+EC+서요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A. 12시는 주중에 이용하셨을 경우 12시까지이고요",
+            "norm_text": "A. 12시는 주중에 이용하셨을 경우 12시까지이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+12/SN+시/NNBC+는/JX+주/NNG+중/NNB+에/JKB+이용/NNG+하/XSV+셨/EP+EP+을/ETM+경우/NNG+12/SN+시/NNBC+까지/JX+이/MM+고요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "A. 주말은 11시가 맞습니다",
+            "norm_text": "A. 주말은 11시가 맞습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주말/NNG+은/JX+11/SN+시/NNBC+가/JKC+맞/VV+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 그렇군요 주중이라는 단어가 빠졌네요",
+            "norm_text": "B. 그렇군요 주중이라는 단어가 빠졌네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+주/VX+중/NNB+이/VCP+라는/ETM+단어/NNG+가/JKS+빠졌/VV+EP+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 아마 해당 사이트에서 누락이 되었나 봅니다",
+            "norm_text": "A. 아마 해당 사이트에서 누락이 되었나 봅니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아마/MAG+해당/NNG+사이트/NNG+에서/JKB+누락/NNG+이/JKS+되/VV+었/EP+나/EC+봅니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B. 그럼 주말에 11시 체크 아웃 맞는 거죠",
+            "norm_text": "B. 그럼 주말에 11시 체크 아웃 맞는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+주말/NNG+에/JKB+11/SN+시/NNBC+체크아웃/NNG+맞/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A. 네 그렇습니다 그럼 다른 문의 사항 있으실까요",
+            "norm_text": "A. 네 그렇습니다 그럼 다른 문의 사항 있으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+그럼/MAJ+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 13,
+            "text": "B. 아니요 다른 문의 사항은 없어요",
+            "norm_text": "B. 아니요 다른 문의 사항은 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "B/SL+아니요/IC+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "A. 이용에 불편을 드려 죄송합니다 남은 하루도 행복하시길 바랍니다",
+            "norm_text": "A. 이용에 불편을 드려 죄송합니다 남은 하루도 행복하시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+이용/NNG+에/JKB+불편/NNG+을/JKO+드려/VV+EC+죄송/XR+합니다/XSA+EF+남/VV+은/ETM+하루/NNG+도/JX+행복/NNG+하/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

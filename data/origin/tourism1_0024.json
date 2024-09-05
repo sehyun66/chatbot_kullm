@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 139945,
+    "name": "t1_20211115_0002_0015_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135709015475/t1_20211115_0002_0015_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135709015475/t1_20211115_0002_0015_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147270,
+      "filename": "t1_0052_0016_02.txt",
+      "title": "t1_0052_0016_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 246,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 246,
+        "word_size": 51,
+        "text": "A.안녕하세요 #@소속#친절한 상담사 #@이름#입니다\nB.안녕하세요 스카이 글램핑 편의 시설을 알고 싶어요\nA.스카이 글램핑 편의 시설 안내를 도와드리겠습니다\nB.화장실은 공용으로 사용하나요\nA.네 샤워장과 화장실은 공용입니다\nB.샤워장에 온수는 나오나요\nA.24시간 온수 사용이 가능합니다\nB.또 어떤 편의 시설이 있죠\nA.풀장이 있고 매점과 2층 전망대가 있습니다\nB.그렇군요 자세한 설명 감사드립니다\nA.즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#친절한 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#친절한 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+친절/NNG+한상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 스카이 글램핑 편의 시설을 알고 싶어요",
+            "norm_text": "B.안녕하세요 스카이 글램핑 편의 시설을 알고 싶어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+스카이/NNP+글램/NNP+핑/NNP+편/NNB+의/JKG+시설/NNG+을/JKO+알/VV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.스카이 글램핑 편의 시설 안내를 도와드리겠습니다",
+            "norm_text": "A.스카이 글램핑 편의 시설 안내를 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+스카이/NNP+글램/NNP+핑/NNP+편/NNB+의/JKG+시설/NNG+안내/NNG+를/JKO+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.화장실은 공용으로 사용하나요",
+            "norm_text": "B.화장실은 공용으로 사용하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+화장실/NNG+은/JX+공용/NNG+으로/JKB+사용/NNG+하/XSV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 샤워장과 화장실은 공용입니다",
+            "norm_text": "A.네 샤워장과 화장실은 공용입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+샤워/NNG+장/NNG+과/JC+화장실/NNG+은/JX+공용/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.샤워장에 온수는 나오나요",
+            "norm_text": "B.샤워장에 온수는 나오나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+샤워/NNG+장/NNG+에/JKB+온/VV+ETM+수/NNB+는/JX+나오/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.24시간 온수 사용이 가능합니다",
+            "norm_text": "A.24시간 온수 사용이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+24/SN+시간/NNBC+온수/NNG+사용/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.또 어떤 편의 시설이 있죠",
+            "norm_text": "B.또 어떤 편의 시설이 있죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+또/MAG+어떤/MM+편의/NNG+시설/NNG+이/JKS+있/VA+죠/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.풀장이 있고 매점과 2층 전망대가 있습니다",
+            "norm_text": "A.풀장이 있고 매점과 2층 전망대가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+풀장/NNG+이/JKS+있/VV+고/EC+매점/NNG+과/JC+2/SN+층/NNG+전망대/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그렇군요 자세한 설명 감사드립니다",
+            "norm_text": "B.그렇군요 자세한 설명 감사드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+자세/XR+한/XSA+ETM+설명/NNG+감사/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+            "norm_text": "A.즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+보내/VV+EC+십/NR+시/NNBC+오상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

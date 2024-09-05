@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140160,
+    "name": "t1_20211115_0002_0080_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710048862/t1_20211115_0002_0080_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710048862/t1_20211115_0002_0080_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147418,
+      "filename": "t1_0053_0034_02.txt",
+      "title": "t1_0053_0034_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 290,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 290,
+        "word_size": 73,
+        "text": "A. 문의주셔서 감사합니다 #@소속#의 #@이름#상담원 입니다\nB. 이번에 진행하는 스위트룸 와인 이벤트 말인데요\nA. 네 저희 스위트룸 이벤트 안내 도와드릴까요\nB. 지금 전화로 바로 예약을 하면 되는 건가요\nA. 혹시 투숙 하실 날짜가 언제 일까요\nB. 7월 24일 토요일에 하려고 해요\nA. 성수기인 7월16일부터 8월28일까지는 이벤트가 제외됩니다\nB. 그래요 그럼 이벤트 참여는 안되겠네요\nA. 이용에 불편을 드려 죄송합니다\nB. 아니에요 호텔 규정이 그렇다니 어쩔 수 없죠\nA. 다음에 더 좋은 서비스로 만족드리도록 하겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 문의주셔서 감사합니다 #@소속#의 #@이름#상담원 입니다",
+            "norm_text": "A. 문의주셔서 감사합니다 #@소속#의 #@이름#상담원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+문/NNG+의/JKG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 이번에 진행하는 스위트룸 와인 이벤트 말인데요",
+            "norm_text": "B. 이번에 진행하는 스위트룸 와인 이벤트 말인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이번/NNG+에/JKB+진행/NNG+하/XSV+는/ETM+스위트룸/NNG+와인/NNG+이벤트/NNG+말/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 저희 스위트룸 이벤트 안내 도와드릴까요",
+            "norm_text": "A. 네 저희 스위트룸 이벤트 안내 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+저희/NP+스위트룸/NNG+이벤트/NNG+안내/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 지금 전화로 바로 예약을 하면 되는 건가요",
+            "norm_text": "B. 지금 전화로 바로 예약을 하면 되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+지금/MAG+전화/NNG+로/JKB+바로/MAG+예약/NNG+을/JKO+하/VV+면/EC+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 혹시 투숙 하실 날짜가 언제 일까요",
+            "norm_text": "A. 혹시 투숙 하실 날짜가 언제 일까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+투숙/NNG+하/XSV+실/EP+ETM+날짜/NNG+가/JKS+언제/NP+일까요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 7월 24일 토요일에 하려고 해요",
+            "norm_text": "B. 7월 24일 토요일에 하려고 해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+7/SN+월/NNBC+24/SN+일/NNBC+토요일/NNG+에/JKB+하/VV+려고/EC+해요/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 성수기인 7월16일부터 8월28일까지는 이벤트가 제외됩니다",
+            "norm_text": "A. 성수기인 7월16일부터 8월28일까지는 이벤트가 제외됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+성수기/NNG+인/VCP+ETM+7/SN+월/NNBC+16/SN+일/NNBC+부터/JX+8/SN+월/NNBC+28/SN+일/NNBC+까지/JX+는/JX+이벤트/NNG+가/JKS+제외/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 그래요 그럼 이벤트 참여는 안되겠네요",
+            "norm_text": "B. 그래요 그럼 이벤트 참여는 안되겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+이벤트/NNG+참여/NNG+는/JX+안/MAG+되/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 이용에 불편을 드려 죄송합니다",
+            "norm_text": "A. 이용에 불편을 드려 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+이용/NNG+에/JKB+불편/NNG+을/JKO+드려/VV+EC+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 아니에요 호텔 규정이 그렇다니 어쩔 수 없죠",
+            "norm_text": "B. 아니에요 호텔 규정이 그렇다니 어쩔 수 없죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/VCN+에요/EF+호텔/NNG+규정/NNG+이/JKS+그렇/VA+다니/EC+어쩔/VV+ETM+수/NNB+없/VA+죠/EF"
+          },
+          {
+            "id": 11,
+            "text": "A. 다음에 더 좋은 서비스로 만족드리도록 하겠습니다",
+            "norm_text": "A. 다음에 더 좋은 서비스로 만족드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+다음/NNG+에/JKB+더/MAG+좋/VA+은/ETM+서비스/NNG+로/JKB+만족/NNG+드리/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

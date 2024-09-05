@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140119,
+    "name": "t1_20211115_0002_0068_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710038642/t1_20211115_0002_0068_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710038642/t1_20211115_0002_0068_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147406,
+      "filename": "t1_0053_0022_02.txt",
+      "title": "t1_0053_0022_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 317,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 317,
+        "word_size": 79,
+        "text": "A. 행복한 하루의 시작 #@소속# 상담원 #@이름# 입니다\nB. 여기 호텔에 강아지 동반 객실이 있다고 들었는데요\nA. 네 저희 호텔에 펫 전용 객실이 준비되어있습니다\nB. 그럼 강아지들은 종에 상관없이 모두 가능한가요\nA. 특별히 종을 구분하여 받고 있진 않습니다\nB. 그럼 대형견도 가능할까요\nA. 죄송합니다만 저희 호텔은 10키로 미만의 반려견 투숙만 가능합니다\nB. 그렇군요 저희애가 대형견이라 안되겠군요\nA. 아쉽지만 다음 기회에 이용해 주시면 감사하겠습니다\nB. 알겠습니다 어쩔 수 없죠 그럼 수고하세요\nA. 앞으로도 더 나은 서비스를 위해 노력하는 #@소속#이 되겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 행복한 하루의 시작 #@소속# 상담원 #@이름# 입니다",
+            "norm_text": "A. 행복한 하루의 시작 #@소속# 상담원 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+의/JKG+시작/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 여기 호텔에 강아지 동반 객실이 있다고 들었는데요",
+            "norm_text": "B. 여기 호텔에 강아지 동반 객실이 있다고 들었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+호텔/NNG+에/JKB+강아지/NNG+동반/NNG+객실/NNG+이/JKS+있/VV+다고/EC+들/VX+었/EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 저희 호텔에 펫 전용 객실이 준비되어있습니다",
+            "norm_text": "A. 네 저희 호텔에 펫 전용 객실이 준비되어있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+호텔/NNG+에/JKB+펫/NNP+전용/NNG+객실/NNG+이/JKS+준비/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 그럼 강아지들은 종에 상관없이 모두 가능한가요",
+            "norm_text": "B. 그럼 강아지들은 종에 상관없이 모두 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+강아지/NNG+들/XSN+은/JX+종/NNG+에/JKB+상관없이/MAG+모두/MAG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A. 특별히 종을 구분하여 받고 있진 않습니다",
+            "norm_text": "A. 특별히 종을 구분하여 받고 있진 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+특별히/MAG+종/NNG+을/JKO+구분/NNG+하/XSV+여/EC+받/VV+고/EC+있/VX+진/EC+JX+않/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 그럼 대형견도 가능할까요",
+            "norm_text": "B. 그럼 대형견도 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+대형/NNG+견도/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 죄송합니다만 저희 호텔은 10키로 미만의 반려견 투숙만 가능합니다",
+            "norm_text": "A. 저희 호텔은 10키로 미만의 반려견 투숙만 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+저희/NP+호텔/NNG+은/JX+10/SN+키로/XSV+ETN+JKB+미만/NNG+의/JKG+반려/NNG+견/NNG+투숙/NNG+만/JX+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 그렇군요 저희애가 대형견이라 안되겠군요",
+            "norm_text": "B. 그렇군요 저희애가 대형견이라 안되겠군요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+저희/NP+애/NNG+가/JKS+대형/NNG+견이/NNG+라/VCP+EC+안/MAG+되/VV+겠/EP+군요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 아쉽지만 다음 기회에 이용해 주시면 감사하겠습니다",
+            "norm_text": "A. 아쉽지만 다음 기회에 이용해 주시면 감사하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+아쉽/VA+지만/EC+다음/NNG+기회/NNG+에/JKB+이용/NNG+해/XSV+EC+주/VX+시/EP+면/EC+감사/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B. 알겠습니다 어쩔 수 없죠 그럼 수고하세요",
+            "norm_text": "B. 알겠습니다 어쩔 수 없죠 그럼 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+어쩔/VV+ETM+수/NNB+없/VA+죠/EF+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A. 앞으로도 더 나은 서비스를 위해 노력하는 #@소속#이 되겠습니다",
+            "norm_text": "A. 앞으로도 더 나은 서비스를 위해 노력하는 #@소속#이 되겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+앞/NNG+으로/JKB+도/JX+더/MAG+나/VA+은/ETM+서비스/NNG+를/JKO+위해/VV+EC+노력/NNG+하/XSV+는/ETM+#/SY+@/SY+소속/NNG+#/SY+이/JKS+되/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

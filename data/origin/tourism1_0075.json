@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140110,
+    "name": "t1_20211115_0002_0066_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357100370109/t1_20211115_0002_0066_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357100370109/t1_20211115_0002_0066_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147404,
+      "filename": "t1_0053_0020_02.txt",
+      "title": "t1_0053_0020_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 289,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 289,
+        "word_size": 75,
+        "text": "A. 기분 좋은 아침 입니다 #@소속# #@이름#입니다\nB. 안녕하세요 저희가 펫 전용 객실을 예약을 했는데요\nA. 네 어떤 문의 사항으로 연락 주셨을까요\nB. 호텔 내에 반려견을 데리고 다녀도 되나요\nA. 객실을 제외한 호텔 내부에서는 유모차나 케이지를 이용해 주시길 바랍니다\nB. 목줄을 해도 안되는 건가요\nA. 네 다른 이용객들도 있으니 양해 바랍니다\nB. 그럼 케이지말고 강아지용 슬링백에 넣어도 될까요\nA. 네 강아지 슬링백도 사용 가능하세요\nB. 알겠습니다 그럼 수고하세요\nA. 앞으로도 더 좋은 서비스를 위해 노력하겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 기분 좋은 아침 입니다 #@소속# #@이름#입니다",
+            "norm_text": "A. 기분 좋은 아침 입니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+기분/NNG+좋/VA+은/ETM+아침/NNG+입니다/VCP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 저희가 펫 전용 객실을 예약을 했는데요",
+            "norm_text": "B. 안녕하세요 저희가 펫 전용 객실을 예약을 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+저희/NP+가/JKS+펫/NNP+전용/NNG+객실/NNG+을/JKO+예약/NNG+을/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 어떤 문의 사항으로 연락 주셨을까요",
+            "norm_text": "A. 네 어떤 문의 사항으로 연락 주셨을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문/NNG+의/JKG+사항/NNG+으로/JKB+연락/NNG+주/VV+셨/EP+EP+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 호텔 내에 반려견을 데리고 다녀도 되나요",
+            "norm_text": "B. 호텔 내에 반려견을 데리고 다녀도 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+호텔/NNG+내/NNB+에/JKB+반려/NNG+견/NNG+을/JKO+데리/VV+고/EC+다녀도/VV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 객실을 제외한 호텔 내부에서는 유모차나 케이지를 이용해 주시길 바랍니다",
+            "norm_text": "A. 호텔 내부에서는 유모차나 케이지를 이용해 주시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+객실/NNG+을/JKO+제외/NNG+한/XSA+ETM+호텔/NNG+내부/NNG+에서/JKB+는/JX+유모차/NNG+나/JC+케이지/NNG+를/JKO+이용/NNG+해/XSV+EC+주/VX+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 목줄을 해도 안되는 건가요",
+            "norm_text": "B. 목줄을 해도 안되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+목줄/NNG+을/JKO+해도/VV+EC+안/MAG+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 네 다른 이용객들도 있으니 양해 바랍니다",
+            "norm_text": "A. 네 다른 이용객들도 있으니 양해 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+네/IC+다른/MM+이용객/NNG+들/XSN+도/JX+있/VA+으니/EC+양해/NNG+바랍니다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 그럼 케이지말고 강아지용 슬링백에 넣어도 될까요",
+            "norm_text": "B. 그럼 케이지말고 강아지용 슬링백에 넣어도 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+케이지/NNG+말/VV+고/EC+강아지/NNG+용슬/NNG+링/JKO+백/NR+에/JKB+넣/VV+어도/EC+될까요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 네 강아지 슬링백도 사용 가능하세요",
+            "norm_text": "A. 네 강아지 슬링백도 사용 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+강아지/NNG+슬링/NNG+백도/NNG+사용/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B. 알겠습니다 그럼 수고하세요",
+            "norm_text": "B. 알겠습니다 그럼 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A. 앞으로도 더 좋은 서비스를 위해 노력하겠습니다",
+            "norm_text": "A. 앞으로도 더 좋은 서비스를 위해 노력하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+앞/NNG+으로/JKB+도/JX+더/MAG+좋/VA+은/ETM+서비스/NNG+를/JKO+위해/VV+EC+노력/NNG+하/XSV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

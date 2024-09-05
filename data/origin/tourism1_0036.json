@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 139979,
+    "name": "t1_20211115_0002_0027_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357100021102/t1_20211115_0002_0027_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357100021102/t1_20211115_0002_0027_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147365,
+      "filename": "t1_0052_0111_02.txt",
+      "title": "t1_0052_0111_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 268,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 268,
+        "word_size": 56,
+        "text": "A.안녕하세요 #@소속#친절한 상담사 #@이름#입니다\nB.안녕하세요 여주 해여림 펜션에서 폰드 펜션에 대해 궁금한데요\nA.네 고객님 무엇을 도와드릴까요\nB.침실 형태가 독립형인가요 오픈형인가요\nA.각 객실마다 두 형태가 다 존재합니다\nB.아 그래요 다 있어요\nA.네 a형은 각각 1개씩이고 b형은 독립형 2개 오픈형 1개입니다\nB.아 그렇군요 비용은 얼마인가요\nA.비수기는 31만원에서 33만원입니다\nB.알겠습니다 친절한 안내 감사합니다\nA.고객님 즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#친절한 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#친절한 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+친절/NNG+한상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 여주 해여림 펜션에서 폰드 펜션에 대해 궁금한데요",
+            "norm_text": "B.안녕하세요 여주 해여림 펜션에서 폰드 펜션에 대해 궁금한데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+여/EC+주/VX+해여림/NNP+펜션/NNG+에서/JKB+폰드/NNP+펜션/NNG+에/JKB+대해/VV+EC+궁금/XR+한데요/XSA+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 무엇을 도와드릴까요",
+            "norm_text": "A.네 고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.침실 형태가 독립형인가요 오픈형인가요",
+            "norm_text": "B.침실 형태가 독립형인가요 오픈형인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+침실/NNG+형태/NNG+가/JKS+독립/NNG+형/XSN+인가요/VCP+EC+오픈/NNG+형/XSN+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.각 객실마다 두 형태가 다 존재합니다",
+            "norm_text": "A.각 객실마다 두 형태가 다 존재합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+각/MM+객실/NNG+마다/JX+두/MM+형태/NNG+가/JKS+다/MAG+존재/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아 그래요 다 있어요",
+            "norm_text": "B.아 그래요 다 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+그래요/IC+다/MAG+있/VA+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 a형은 각각 1개씩이고 b형은 독립형 2개 오픈형 1개입니다",
+            "norm_text": "A.네 a형은 각각 1개씩이고 b형은 독립형 2개 오픈형 1개입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+a/SL+형/XSN+은/JX+각각/MAG+1/SN+개/NNBC+씩/XSN+이/VCP+고/EC+b/SL+형/XSN+은/JX+독립/NNG+형/XSN+2/SN+개/NNBC+오픈/NNG+형/XSN+1/SN+개/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.아 그렇군요 비용은 얼마인가요",
+            "norm_text": "B.아 그렇군요 비용은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그렇/VA+군요/EC+비용/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.비수기는 31만원에서 33만원입니다",
+            "norm_text": "A.비수기는 31만원에서 33만원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+비수기/NNG+는/JX+31/SN+만/NR+원/NNBC+에서/JKB+33/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 친절한 안내 감사합니다",
+            "norm_text": "B.알겠습니다 친절한 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.고객님 즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+            "norm_text": "A.고객님 즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+즐거운/VA+ETM+하루/NNG+보내/VV+EC+십/NR+시/NNBC+오상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

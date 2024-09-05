@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140061,
+    "name": "t1_20211115_0002_0050_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710022894/t1_20211115_0002_0050_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710022894/t1_20211115_0002_0050_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147388,
+      "filename": "t1_0053_0004_02.txt",
+      "title": "t1_0053_0004_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 281,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 281,
+        "word_size": 79,
+        "text": "A. 행복이 넘치는 #@소속#  #@이름#입니다\nB. 안녕하세요 호텔 예약 전에 확인하고 싶은 게 있어서요\nA. 네 어떤 부분 안내 도와드릴까요\nB. 호텔 체크인 시간을 알고 싶은데요\nA. 저희 소노캄 여수 호텔 체크인 시간은 15시 입니다\nB. 그럼 체크 아웃 시간은요\nA. 체크 아웃 시간은 다음날 오전 11시 입니다\nB. 체크 아웃 시간을 연장 할 수는 없나요\nA. 성수기에는 연장이 불가 한 점 양해해 주시길 바랍니다\nB. 네 그럼 알겠습니다 수고하세요\nA. 감사합니다 앞으로도 저희 호텔에 많은 관심 부탁드립니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 행복이 넘치는 #@소속#  #@이름#입니다",
+            "norm_text": "A. 행복이 넘치는 #@소속#  #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+이/JKS+넘치/VV+는/ETM+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 호텔 예약 전에 확인하고 싶은 게 있어서요",
+            "norm_text": "B. 안녕하세요 호텔 예약 전에 확인하고 싶은 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+호텔/NNG+예약/NNG+전/NNG+에/JKB+확인/NNG+하/XSV+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 어떤 부분 안내 도와드릴까요",
+            "norm_text": "A. 네 어떤 부분 안내 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+부분/NNG+안내/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 호텔 체크인 시간을 알고 싶은데요",
+            "norm_text": "B. 호텔 체크인 시간을 알고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+호텔/NNG+체크인/NNG+시간/NNG+을/JKO+알/VV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 저희 소노캄 여수 호텔 체크인 시간은 15시 입니다",
+            "norm_text": "A. 저희 소노캄 여수 호텔 체크인 시간은 15시 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+소노/NNG+캄/NNP+여수/NNP+호텔/NNG+체크인/NNG+시간/NNG+은/JX+15/SN+시/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 그럼 체크 아웃 시간은요",
+            "norm_text": "B. 그럼 체크 아웃 시간은요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+체크아웃/NNG+시간/NNG+은/JX+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A. 체크 아웃 시간은 다음날 오전 11시 입니다",
+            "norm_text": "A. 체크 아웃 시간은 다음날 오전 11시 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+체크아웃/NNG+시간/NNG+은/JX+다음/NNG+날/NNG+오전/NNG+11/SN+시/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 체크 아웃 시간을 연장 할 수는 없나요",
+            "norm_text": "B. 체크 아웃 시간을 연장 할 수는 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+체크아웃/NNG+시간/NNG+을/JKO+연장/NNG+할/XSV+ETM+수/NNB+는/JX+없/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 성수기에는 연장이 불가 한 점 양해해 주시길 바랍니다",
+            "norm_text": "A. 성수기에는 연장이 불가 한 점 양해해 주시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+성수기/NNG+에/JKB+는/JX+연장/NNG+이/JKS+불가/NNG+한/MM+점/NNBC+양해/NNG+해/XSV+EC+주/VX+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 네 그럼 알겠습니다 수고하세요",
+            "norm_text": "B. 네 그럼 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A. 감사합니다 앞으로도 저희 호텔에 많은 관심 부탁드립니다",
+            "norm_text": "A. 감사합니다 앞으로도 저희 호텔에 많은 관심 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+앞/NNG+으로/JKB+도/JX+저희/NP+호텔/NNG+에/JKB+많/VA+은/ETM+관심/NNG+부탁/NNG+드립니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140176,
+    "name": "t1_20211115_0002_0085_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710053039/t1_20211115_0002_0085_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135710053039/t1_20211115_0002_0085_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147423,
+      "filename": "t1_0053_0039_02.txt",
+      "title": "t1_0053_0039_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 330,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 330,
+        "word_size": 87,
+        "text": "A. 편안한 오후의 #@소속# 안내 센터 입니다\nB. 호캉스 패키지 예약을 하고 싶은데요\nA. 네 저희 호캉스 패키지 예약 도와드리겠습니다\nB. 패밀리 트윈 객실로 10월 23일 토요일이요\nA. 10월23일 토요일은 객실 마감되어 이용이 불가 하세요\nB. 패밀리 트윈 객실이 다 예약됐다는 건가요\nA. 호캉스 패키지 객실이 20개 한정이라 모두 예약 완료 되었습니다\nB. 그럼 10월 중에 패키지 이용 가능한 날짜가 있나요\nA. 10월 24일 일요일과 10월 30일 31일 가능하세요\nB. 그럼 친구랑 다시 상의해보고 연락 드릴게요\nA. 네 다시 날짜 상의 후 연락 주시길 바랍니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 편안한 오후의 #@소속# 안내 센터 입니다",
+            "norm_text": "A. 편안한 오후의 #@소속# 안내 센터 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+편안/NNG+한/XSA+ETM+오후/NNG+의/JKG+#/SY+@/SY+소속/NNG+#/SY+안내/NNG+센터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 호캉스 패키지 예약을 하고 싶은데요",
+            "norm_text": "B. 호캉스 패키지 예약을 하고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+호/NNBC+캉/JKB+스/IC+패키지/NNG+예약/NNG+을/JKO+하/VV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 저희 호캉스 패키지 예약 도와드리겠습니다",
+            "norm_text": "A. 네 저희 호캉스 패키지 예약 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+호/XSN+캉/JKB+스/IC+패키지/NNG+예약/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 패밀리 트윈 객실로 10월 23일 토요일이요",
+            "norm_text": "B. 패밀리 트윈 객실로 10월 23일 토요일이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "B/SL+./SY+패밀리/NNP+트윈/NNP+객실/NNG+로/JKB+10/SN+월/NNBC+23/SN+일/NNBC+토요일/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 10월23일 토요일은 객실 마감되어 이용이 불가 하세요",
+            "norm_text": "A. 10월23일 토요일은 객실 마감되어 이용이 불가 하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+10/SN+월/NNBC+23/SN+일/NNBC+토요일/NNG+은/JX+객실/NNG+마감/NNG+되/XSV+어/EC+이용/NNG+이/JKS+불가/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 패밀리 트윈 객실이 다 예약됐다는 건가요",
+            "norm_text": "B. 패밀리 트윈 객실이 다 예약됐다는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+패밀리/NNP+트윈/NNP+객실/NNG+이/JKS+다/MAG+예약/NNG+됐/XSV+EP+다는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 호캉스 패키지 객실이 20개 한정이라 모두 예약 완료 되었습니다",
+            "norm_text": "A. 호캉스 패키지 객실이 20개 한정이라 모두 예약 완료 되었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+호/NNBC+캉/JKB+스/IC+패키지/NNG+객실/NNG+이/JKS+20/SN+개/NNBC+한정/NNG+이/VCP+라/EC+모두/MAG+예약/NNG+완료/NNG+되/XSV+었/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B. 그럼 10월 중에 패키지 이용 가능한 날짜가 있나요",
+            "norm_text": "B. 그럼 10월 중에 패키지 이용 가능한 날짜가 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+10/SN+월/NNBC+중/NNB+에/JKB+패키지/NNG+이용/NNG+가능/NNG+한/XSA+ETM+날짜/NNG+가/JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 10월 24일 일요일과 10월 30일 31일 가능하세요",
+            "norm_text": "A. 10월 24일 일요일과 10월 30일 31일 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+10/SN+월/NNBC+24/SN+일/NNBC+일요일/NNG+과/JC+10/SN+월/NNBC+30/SN+일/NNBC+31/SN+일/NNBC+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B. 그럼 친구랑 다시 상의해보고 연락 드릴게요",
+            "norm_text": "B. 그럼 친구랑 다시 상의해보고 연락 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그럼/MAJ+친구/NNG+랑/JKB+다시/MAG+상의/NNG+해/XSV+EC+보/VX+고/EC+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 네 다시 날짜 상의 후 연락 주시길 바랍니다 상담원 #@이름#이었습니다",
+            "norm_text": "A. 네 다시 날짜 상의 후 연락 주시길 바랍니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+다시/MAG+날짜/NNG+상/XSN+의/JKG+후연/NNG+락/VCP+EC+주/VX+시/EP+길/ETN+JKO+바랍니다/VV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}
